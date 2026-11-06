@@ -168,8 +168,8 @@ https://www.energycodes.gov/prototype-building-models, which are not redistribut
 - `patches/`: modifications of EnergyPlus, under the EnergyPlus license
   (`patches/LICENSE-EnergyPlus.txt`), which applies to the modified source.
 - Scripts (`build/`, `tests/`, `study/`, `paper/`, `configurations.py`): BSD 3-Clause (`LICENSE`).
-- `results/`, `docs/` and `paper/` outputs: Creative Commons Attribution 4.0 International
-  (CC BY 4.0).
+- `results/`, `docs/` and the generated tables and figures in `paper/`: Creative Commons
+  Attribution 4.0 International (CC BY 4.0, `results/LICENSE.md`).
 
 ## Citation
 
