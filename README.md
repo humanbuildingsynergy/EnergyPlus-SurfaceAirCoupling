@@ -132,7 +132,8 @@ Every Python script prints its options with `--help`, and most accept subsets (`
 `--cases`, `--timesteps`) so that part of the work can be checked without rerunning everything.
 Results on other machines can differ from the published files by floating-point amounts (about
 1e-9 °C in temperatures, 0.01 GJ in annual totals) and in warning counts. Runtimes depend on the
-machine.
+machine. The published figures were made with Matplotlib 3.10.3, and other versions write
+different PDF files.
 
 ## Where the paper's results come from
 
