@@ -1,0 +1,4 @@
+# Raw EnergyPlus runs (regenerable, several GB)
+/runs/
+__pycache__/
+.DS_Store

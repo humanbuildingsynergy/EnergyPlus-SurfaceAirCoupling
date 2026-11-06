@@ -1,0 +1,13 @@
+scheme,ts,model_lagged_rms_C,model_converged_rms_C,eplus_release_rms_C,eplus_converged_rms_C
+ThirdOrderBackwardDifference,4,2.1246,0.0051279,2.0312,0.047126
+ThirdOrderBackwardDifference,6,1.6376,0.0026842,1.6343,0.025054
+ThirdOrderBackwardDifference,10,1.1131,0.0013765,1.1315,0.012746
+ThirdOrderBackwardDifference,20,0.61243,0.00064819,0.63376,0.00065558
+EulerMethod,4,2.1149,0.07562,2.0614,0.22206
+EulerMethod,6,1.6305,0.051084,1.6367,0.13517
+EulerMethod,10,1.1092,0.030997,1.1279,0.035884
+EulerMethod,20,0.61112,0.015637,0.63248,0.015637
+AnalyticalSolution,4,1.5455,1.4588,1.5616,1.459
+AnalyticalSolution,6,1.0651,1.0669,1.0837,1.0671
+AnalyticalSolution,10,0.64405,0.67936,0.66484,0.67941
+AnalyticalSolution,20,0.31963,0.3513,0.34211,0.35131

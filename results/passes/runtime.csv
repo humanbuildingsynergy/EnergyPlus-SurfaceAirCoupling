@@ -1,0 +1,6 @@
+configuration,returncode,wall_s,annual_timesteps,mean_extra_passes,max_passes,not_converged
+release,0,12.6,,,,
+passes_off,0,11.6,,,,
+inside_faces,0,38.5,35040,12.75,16,0
+both_faces,0,42.1,35040,12.74,16,0
+converged,0,70.6,35040,12.40,50,63

@@ -1,0 +1,9 @@
+configuration,measure,order
+converged,rms_C,2.6
+converged,rms_hourly_mean_C,0.919
+one_pass,rms_C,1.22
+one_pass,rms_hourly_mean_C,1.29
+release,rms_C,0.727
+release,rms_hourly_mean_C,0.729
+two_passes,rms_C,1.4
+two_passes,rms_hourly_mean_C,1.57

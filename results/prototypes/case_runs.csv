@@ -1,0 +1,337 @@
+case,variant,configuration,returncode,completed,fatal,n_warning,n_severe,wall_s_parallel,run_env,timesteps,mean_passes,max_passes,not_converged,sizing_envs_with_passes
+ApartmentHighRise_Denver,base,one_pass,0,True,False,99,0,751.2,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentHighRise_Denver,base,two_passes,0,True,False,99,0,1035.4,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentHighRise_Denver,base,converged,0,True,False,99,0,2461.0,RUNPERIOD 1,52560.0,13.84,50.0,997.0,2
+ApartmentHighRise_Denver,base,release,0,True,False,99,0,564.8,,,,,,0
+ApartmentHighRise_Denver,window,one_pass,0,True,False,99,0,748.5,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentHighRise_Denver,window,two_passes,0,True,False,99,0,913.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentHighRise_Denver,window,converged,0,True,False,99,0,2381.2,RUNPERIOD 1,52560.0,12.39,50.0,1116.0,2
+ApartmentHighRise_Denver,window,release,0,True,False,99,0,524.1,,,,,,0
+ApartmentHighRise_InternationalFalls,base,one_pass,0,True,False,102,0,889.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentHighRise_InternationalFalls,base,two_passes,0,True,False,102,0,1131.4,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentHighRise_InternationalFalls,base,converged,0,True,False,102,0,2448.6,RUNPERIOD 1,52560.0,12.68,50.0,934.0,2
+ApartmentHighRise_InternationalFalls,base,release,0,True,False,102,0,526.6,,,,,,0
+ApartmentHighRise_InternationalFalls,window,one_pass,0,True,False,102,0,882.1,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentHighRise_InternationalFalls,window,two_passes,0,True,False,102,0,886.0,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentHighRise_InternationalFalls,window,converged,0,True,False,102,0,2252.3,RUNPERIOD 1,52560.0,11.86,50.0,847.0,2
+ApartmentHighRise_InternationalFalls,window,release,0,True,False,102,0,528.5,,,,,,0
+ApartmentHighRise_Miami,base,one_pass,0,True,False,97,0,667.5,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentHighRise_Miami,base,two_passes,0,True,False,97,0,1014.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentHighRise_Miami,base,converged,0,True,False,97,0,2414.5,RUNPERIOD 1,52560.0,12.7,50.0,135.0,2
+ApartmentHighRise_Miami,base,release,0,True,False,97,0,527.3,,,,,,0
+ApartmentMidRise_Denver,base,one_pass,0,True,False,64,0,905.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentMidRise_Denver,base,two_passes,0,True,False,62,0,1138.0,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentMidRise_Denver,base,converged,0,True,False,77,0,2586.4,RUNPERIOD 1,52560.0,12.45,50.0,222.0,2
+ApartmentMidRise_Denver,base,release,0,True,False,62,0,628.6,,,,,,0
+ApartmentMidRise_Denver,window,one_pass,0,True,False,63,0,870.1,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentMidRise_Denver,window,two_passes,0,True,False,63,0,1053.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentMidRise_Denver,window,converged,0,True,False,63,0,2262.7,RUNPERIOD 1,52560.0,10.75,50.0,243.0,2
+ApartmentMidRise_Denver,window,release,0,True,False,63,0,568.6,,,,,,0
+ApartmentMidRise_InternationalFalls,base,one_pass,0,True,False,46,0,749.4,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentMidRise_InternationalFalls,base,two_passes,0,True,False,47,0,990.8,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentMidRise_InternationalFalls,base,converged,0,True,False,48,0,1956.2,RUNPERIOD 1,52560.0,11.16,50.0,235.0,2
+ApartmentMidRise_InternationalFalls,base,release,0,True,False,46,0,295.1,,,,,,0
+ApartmentMidRise_InternationalFalls,window,one_pass,0,True,False,42,0,894.8,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentMidRise_InternationalFalls,window,two_passes,0,True,False,42,0,833.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentMidRise_InternationalFalls,window,converged,0,True,False,42,0,1883.9,RUNPERIOD 1,52560.0,10.33,50.0,225.0,2
+ApartmentMidRise_InternationalFalls,window,release,0,True,False,37,0,408.5,,,,,,0
+ApartmentMidRise_Miami,base,one_pass,0,True,False,27,0,762.8,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+ApartmentMidRise_Miami,base,two_passes,0,True,False,27,0,1208.5,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+ApartmentMidRise_Miami,base,converged,0,True,False,27,0,2399.8,RUNPERIOD 1,52560.0,12.24,50.0,63.0,2
+ApartmentMidRise_Miami,base,release,0,True,False,27,0,491.9,,,,,,0
+Hospital_Denver,base,one_pass,0,True,False,205,0,787.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Hospital_Denver,base,two_passes,0,True,False,205,0,1030.6,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Hospital_Denver,base,converged,0,True,False,207,0,4833.5,RUNPERIOD 1,52560.0,37.53,50.0,34535.0,2
+Hospital_Denver,base,release,0,True,False,206,0,481.1,,,,,,0
+Hospital_Denver,window,one_pass,0,True,False,200,0,765.6,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Hospital_Denver,window,two_passes,0,True,False,205,0,891.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Hospital_Denver,window,converged,0,True,False,208,0,4597.5,RUNPERIOD 1,52560.0,37.39,50.0,35096.0,2
+Hospital_Denver,window,release,0,True,False,204,0,388.6,,,,,,0
+Hospital_InternationalFalls,base,one_pass,0,True,False,202,0,515.7,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Hospital_InternationalFalls,base,two_passes,0,True,False,201,0,765.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Hospital_InternationalFalls,base,converged,0,True,False,201,0,4486.7,RUNPERIOD 1,52560.0,40.46,50.0,39214.0,2
+Hospital_InternationalFalls,base,release,0,True,False,198,0,473.6,,,,,,0
+Hospital_InternationalFalls,window,one_pass,0,True,False,187,0,478.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Hospital_InternationalFalls,window,two_passes,0,True,False,190,0,838.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Hospital_InternationalFalls,window,converged,0,True,False,189,0,4314.2,RUNPERIOD 1,52560.0,40.53,50.0,39544.0,2
+Hospital_InternationalFalls,window,release,0,True,False,184,0,479.1,,,,,,0
+Hospital_Miami,base,one_pass,0,True,False,194,1,662.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Hospital_Miami,base,two_passes,0,True,False,192,1,1086.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Hospital_Miami,base,converged,0,True,False,203,1,5098.1,RUNPERIOD 1,52560.0,40.97,50.0,37382.0,2
+Hospital_Miami,base,release,0,True,False,186,1,482.9,,,,,,0
+HotelLarge_Denver,base,one_pass,0,True,False,48,9,310.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelLarge_Denver,base,two_passes,0,True,False,48,9,436.5,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelLarge_Denver,base,converged,0,True,False,48,9,1172.1,RUNPERIOD 1,52560.0,15.76,50.0,2868.0,2
+HotelLarge_Denver,base,release,0,True,False,48,9,291.4,,,,,,0
+HotelLarge_Denver,window,one_pass,0,True,False,48,9,289.6,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelLarge_Denver,window,two_passes,0,True,False,48,9,433.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelLarge_Denver,window,converged,0,True,False,48,9,1440.3,RUNPERIOD 1,52560.0,14.26,50.0,2797.0,2
+HotelLarge_Denver,window,release,0,True,False,48,9,235.5,,,,,,0
+HotelLarge_InternationalFalls,base,one_pass,0,True,False,48,0,333.1,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelLarge_InternationalFalls,base,two_passes,0,True,False,48,0,401.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelLarge_InternationalFalls,base,converged,0,True,False,48,0,2002.2,RUNPERIOD 1,52560.0,18.57,50.0,7464.0,2
+HotelLarge_InternationalFalls,base,release,0,True,False,48,0,255.1,,,,,,0
+HotelLarge_InternationalFalls,window,one_pass,0,True,False,50,0,373.2,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelLarge_InternationalFalls,window,two_passes,0,True,False,53,0,466.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelLarge_InternationalFalls,window,converged,0,True,False,63,0,1873.2,RUNPERIOD 1,52560.0,17.55,50.0,6823.0,2
+HotelLarge_InternationalFalls,window,release,0,True,False,51,0,260.6,,,,,,0
+HotelLarge_Miami,base,one_pass,0,True,False,58,0,377.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelLarge_Miami,base,two_passes,0,True,False,58,0,480.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelLarge_Miami,base,converged,0,True,False,69,0,1674.9,RUNPERIOD 1,52560.0,16.05,50.0,1104.0,2
+HotelLarge_Miami,base,release,0,True,False,52,0,240.6,,,,,,0
+HotelSmall_Denver,base,one_pass,0,True,False,260,0,1172.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelSmall_Denver,base,two_passes,0,True,False,263,2,1045.2,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelSmall_Denver,base,converged,0,True,False,263,0,2377.9,RUNPERIOD 1,52560.0,12.69,50.0,764.0,2
+HotelSmall_Denver,base,release,0,True,False,260,2,977.8,,,,,,0
+HotelSmall_Denver,window,one_pass,0,True,False,261,0,971.5,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelSmall_Denver,window,two_passes,0,True,False,261,0,1005.6,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelSmall_Denver,window,converged,0,True,False,265,2,2161.4,RUNPERIOD 1,52560.0,11.29,50.0,793.0,2
+HotelSmall_Denver,window,release,0,True,False,262,0,623.3,,,,,,0
+HotelSmall_InternationalFalls,base,one_pass,0,True,False,254,0,893.7,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelSmall_InternationalFalls,base,two_passes,0,True,False,259,0,985.6,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelSmall_InternationalFalls,base,converged,0,True,False,257,0,2259.9,RUNPERIOD 1,52560.0,12.01,50.0,952.0,2
+HotelSmall_InternationalFalls,base,release,0,True,False,261,0,992.4,,,,,,0
+HotelSmall_InternationalFalls,window,one_pass,0,True,False,255,0,955.2,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelSmall_InternationalFalls,window,two_passes,0,True,False,258,0,981.5,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelSmall_InternationalFalls,window,converged,0,True,False,255,0,2500.8,RUNPERIOD 1,52560.0,11.48,50.0,1021.0,2
+HotelSmall_InternationalFalls,window,release,0,True,False,257,0,756.9,,,,,,0
+HotelSmall_Miami,base,one_pass,0,True,False,197,0,1032.5,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+HotelSmall_Miami,base,two_passes,0,True,False,195,0,1220.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+HotelSmall_Miami,base,converged,0,True,False,196,0,2391.4,RUNPERIOD 1,52560.0,13.16,50.0,121.0,2
+HotelSmall_Miami,base,release,0,True,False,195,0,979.9,,,,,,0
+OfficeLarge_Denver,base,one_pass,0,True,False,93,0,415.5,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeLarge_Denver,base,two_passes,0,True,False,93,0,452.0,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeLarge_Denver,base,converged,0,True,False,103,0,2016.8,RUNPERIOD 1,52560.0,17.47,50.0,3806.0,2
+OfficeLarge_Denver,base,release,0,True,False,89,0,412.0,,,,,,0
+OfficeLarge_Denver,window,one_pass,0,True,False,98,0,444.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeLarge_Denver,window,two_passes,0,True,False,97,0,521.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeLarge_Denver,window,converged,0,True,False,109,0,1788.9,RUNPERIOD 1,52560.0,15.55,50.0,3378.0,2
+OfficeLarge_Denver,window,release,0,True,False,97,0,289.9,,,,,,0
+OfficeLarge_InternationalFalls,base,one_pass,0,True,False,125,3,603.7,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeLarge_InternationalFalls,base,two_passes,0,True,False,127,0,623.2,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeLarge_InternationalFalls,base,converged,0,True,False,125,1,2267.0,RUNPERIOD 1,52560.0,21.24,50.0,9798.0,2
+OfficeLarge_InternationalFalls,base,release,0,True,False,125,4,417.6,,,,,,0
+OfficeLarge_InternationalFalls,window,one_pass,0,True,False,127,4,447.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeLarge_InternationalFalls,window,two_passes,0,True,False,126,3,559.8,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeLarge_InternationalFalls,window,converged,0,True,False,127,0,2093.8,RUNPERIOD 1,52560.0,19.52,50.0,9076.0,2
+OfficeLarge_InternationalFalls,window,release,0,True,False,126,3,327.0,,,,,,0
+OfficeLarge_Miami,base,one_pass,0,True,False,114,0,494.6,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeLarge_Miami,base,two_passes,0,True,False,114,0,631.2,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeLarge_Miami,base,converged,0,True,False,116,2,2526.9,RUNPERIOD 1,52560.0,18.84,50.0,4674.0,2
+OfficeLarge_Miami,base,release,0,True,False,103,0,467.5,,,,,,0
+OfficeMedium_Denver,base,one_pass,0,True,False,85,2,153.1,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeMedium_Denver,base,two_passes,0,True,False,87,0,190.1,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeMedium_Denver,base,converged,0,True,False,87,0,493.2,RUNPERIOD 1,52560.0,14.1,50.0,154.0,2
+OfficeMedium_Denver,base,release,0,True,False,85,0,155.9,,,,,,0
+OfficeMedium_Denver,window,one_pass,0,True,False,87,3,165.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeMedium_Denver,window,two_passes,0,True,False,87,0,180.1,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeMedium_Denver,window,converged,0,True,False,87,2,460.5,RUNPERIOD 1,52560.0,12.5,50.0,134.0,2
+OfficeMedium_Denver,window,release,0,True,False,87,0,113.3,,,,,,0
+OfficeMedium_InternationalFalls,base,one_pass,0,True,False,90,0,159.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeMedium_InternationalFalls,base,two_passes,0,True,False,88,0,187.2,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeMedium_InternationalFalls,base,converged,0,True,False,90,0,493.7,RUNPERIOD 1,52560.0,14.03,50.0,1956.0,2
+OfficeMedium_InternationalFalls,base,release,0,True,False,90,0,118.7,,,,,,0
+OfficeMedium_InternationalFalls,window,one_pass,0,True,False,90,0,152.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeMedium_InternationalFalls,window,two_passes,0,True,False,90,0,168.2,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeMedium_InternationalFalls,window,converged,0,True,False,90,0,482.8,RUNPERIOD 1,52560.0,13.05,50.0,1474.0,2
+OfficeMedium_InternationalFalls,window,release,0,True,False,90,0,137.2,,,,,,0
+OfficeMedium_Miami,base,one_pass,0,True,False,64,0,134.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OfficeMedium_Miami,base,two_passes,0,True,False,64,0,245.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OfficeMedium_Miami,base,converged,0,True,False,64,0,478.5,RUNPERIOD 1,52560.0,14.77,50.0,1613.0,2
+OfficeMedium_Miami,base,release,0,True,False,65,0,99.6,,,,,,0
+OfficeSmall_Denver,base,one_pass,1,False,True,24,1,2.0,,,,,,2
+OfficeSmall_Denver,base,two_passes,1,False,True,22,1,2.5,,,,,,2
+OfficeSmall_Denver,base,converged,1,False,True,23,1,5.5,,,,,,2
+OfficeSmall_Denver,base,release,1,False,True,24,1,1.4,,,,,,0
+OfficeSmall_Denver,window,one_pass,1,False,True,24,1,1.4,,,,,,2
+OfficeSmall_Denver,window,two_passes,1,False,True,22,1,1.7,,,,,,2
+OfficeSmall_Denver,window,converged,1,False,True,23,1,4.2,,,,,,2
+OfficeSmall_Denver,window,release,1,False,True,23,1,1.9,,,,,,0
+OfficeSmall_InternationalFalls,base,one_pass,1,False,True,17,1,1.6,,,,,,2
+OfficeSmall_InternationalFalls,base,two_passes,1,False,True,17,1,1.7,,,,,,2
+OfficeSmall_InternationalFalls,base,converged,1,False,True,17,1,4.9,,,,,,2
+OfficeSmall_InternationalFalls,base,release,1,False,True,17,1,1.3,,,,,,0
+OfficeSmall_InternationalFalls,window,one_pass,1,False,True,17,1,1.5,,,,,,2
+OfficeSmall_InternationalFalls,window,two_passes,1,False,True,17,1,1.3,,,,,,2
+OfficeSmall_InternationalFalls,window,converged,1,False,True,17,1,5.5,,,,,,2
+OfficeSmall_InternationalFalls,window,release,1,False,True,17,1,1.1,,,,,,0
+OfficeSmall_Miami,base,one_pass,1,False,True,17,1,1.5,,,,,,2
+OfficeSmall_Miami,base,two_passes,1,False,True,17,1,1.6,,,,,,2
+OfficeSmall_Miami,base,converged,1,False,True,17,1,5.2,,,,,,2
+OfficeSmall_Miami,base,release,1,False,True,17,1,1.5,,,,,,0
+OutPatientHealthCare_Denver,base,one_pass,0,True,False,240,0,1515.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OutPatientHealthCare_Denver,base,two_passes,0,True,False,240,0,1742.4,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OutPatientHealthCare_Denver,base,converged,0,True,False,240,0,5223.6,RUNPERIOD 1,52560.0,33.42,50.0,27963.0,2
+OutPatientHealthCare_Denver,base,release,0,True,False,240,1,1337.3,,,,,,0
+OutPatientHealthCare_Denver,window,one_pass,0,True,False,243,2,1608.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OutPatientHealthCare_Denver,window,two_passes,0,True,False,246,2,1681.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OutPatientHealthCare_Denver,window,converged,0,True,False,255,2,5364.2,RUNPERIOD 1,52560.0,32.62,50.0,27812.0,2
+OutPatientHealthCare_Denver,window,release,0,True,False,240,1,1142.9,,,,,,0
+OutPatientHealthCare_InternationalFalls,base,one_pass,0,True,False,236,1,1453.6,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OutPatientHealthCare_InternationalFalls,base,two_passes,0,True,False,234,1,1800.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OutPatientHealthCare_InternationalFalls,base,converged,0,True,False,235,1,5584.7,RUNPERIOD 1,52560.0,35.6,50.0,31812.0,2
+OutPatientHealthCare_InternationalFalls,base,release,0,True,False,233,1,1242.7,,,,,,0
+OutPatientHealthCare_InternationalFalls,window,one_pass,0,True,False,235,1,1598.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OutPatientHealthCare_InternationalFalls,window,two_passes,0,True,False,235,1,1831.8,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OutPatientHealthCare_InternationalFalls,window,converged,0,True,False,248,1,5209.3,RUNPERIOD 1,52560.0,35.42,50.0,31903.0,2
+OutPatientHealthCare_InternationalFalls,window,release,0,True,False,234,1,1343.1,,,,,,0
+OutPatientHealthCare_Miami,base,one_pass,0,True,False,274,0,1474.7,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+OutPatientHealthCare_Miami,base,two_passes,0,True,False,274,0,1408.0,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+OutPatientHealthCare_Miami,base,converged,0,True,False,274,0,4493.9,RUNPERIOD 1,52560.0,29.05,50.0,20706.0,2
+OutPatientHealthCare_Miami,base,release,0,True,False,274,1,1157.6,,,,,,0
+RestaurantFastFood_Denver,base,one_pass,0,True,False,47,2,77.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantFastFood_Denver,base,two_passes,0,True,False,45,2,82.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantFastFood_Denver,base,converged,0,True,False,47,2,176.4,RUNPERIOD 1,52560.0,9.81,50.0,81.0,2
+RestaurantFastFood_Denver,base,release,0,True,False,47,1,73.9,,,,,,0
+RestaurantFastFood_Denver,window,one_pass,0,True,False,43,2,42.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantFastFood_Denver,window,two_passes,0,True,False,41,2,66.6,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantFastFood_Denver,window,converged,0,True,False,45,2,166.4,RUNPERIOD 1,52560.0,9.37,50.0,86.0,2
+RestaurantFastFood_Denver,window,release,0,True,False,45,2,65.4,,,,,,0
+RestaurantFastFood_InternationalFalls,base,one_pass,0,True,False,40,1,67.2,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantFastFood_InternationalFalls,base,two_passes,0,True,False,40,1,50.4,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantFastFood_InternationalFalls,base,converged,0,True,False,40,1,197.2,RUNPERIOD 1,52560.0,9.27,50.0,42.0,2
+RestaurantFastFood_InternationalFalls,base,release,0,True,False,40,2,28.6,,,,,,0
+RestaurantFastFood_InternationalFalls,window,one_pass,0,True,False,40,1,61.8,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantFastFood_InternationalFalls,window,two_passes,0,True,False,40,2,72.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantFastFood_InternationalFalls,window,converged,0,True,False,40,2,162.5,RUNPERIOD 1,52560.0,9.1,50.0,38.0,2
+RestaurantFastFood_InternationalFalls,window,release,0,True,False,40,2,50.0,,,,,,0
+RestaurantFastFood_Miami,base,one_pass,0,True,False,34,1,71.5,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantFastFood_Miami,base,two_passes,0,True,False,36,1,51.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantFastFood_Miami,base,converged,0,True,False,38,1,264.3,RUNPERIOD 1,52560.0,12.56,50.0,3426.0,2
+RestaurantFastFood_Miami,base,release,0,True,False,34,2,46.8,,,,,,0
+RestaurantSitDown_Denver,base,one_pass,0,True,False,39,2,87.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantSitDown_Denver,base,two_passes,0,True,False,39,2,112.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantSitDown_Denver,base,converged,0,True,False,43,1,120.2,RUNPERIOD 1,52560.0,9.32,50.0,37.0,2
+RestaurantSitDown_Denver,base,release,0,True,False,41,1,65.4,,,,,,0
+RestaurantSitDown_Denver,window,one_pass,0,True,False,47,2,94.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantSitDown_Denver,window,two_passes,0,True,False,41,2,83.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantSitDown_Denver,window,converged,0,True,False,47,2,173.8,RUNPERIOD 1,52560.0,8.85,50.0,32.0,2
+RestaurantSitDown_Denver,window,release,0,True,False,43,1,94.2,,,,,,0
+RestaurantSitDown_InternationalFalls,base,one_pass,0,True,False,37,1,60.2,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantSitDown_InternationalFalls,base,two_passes,0,True,False,41,1,73.0,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantSitDown_InternationalFalls,base,converged,0,True,False,39,1,144.8,RUNPERIOD 1,52560.0,8.68,50.0,30.0,2
+RestaurantSitDown_InternationalFalls,base,release,0,True,False,37,1,47.9,,,,,,0
+RestaurantSitDown_InternationalFalls,window,one_pass,0,True,False,39,1,59.4,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantSitDown_InternationalFalls,window,two_passes,0,True,False,41,1,41.1,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantSitDown_InternationalFalls,window,converged,0,True,False,33,1,142.3,RUNPERIOD 1,52560.0,8.51,50.0,19.0,2
+RestaurantSitDown_InternationalFalls,window,release,0,True,False,41,1,51.8,,,,,,0
+RestaurantSitDown_Miami,base,one_pass,0,True,False,38,1,83.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RestaurantSitDown_Miami,base,two_passes,0,True,False,34,1,91.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RestaurantSitDown_Miami,base,converged,0,True,False,34,1,208.4,RUNPERIOD 1,52560.0,10.12,50.0,777.0,2
+RestaurantSitDown_Miami,base,release,0,True,False,38,1,55.5,,,,,,0
+RetailStandalone_Denver,base,one_pass,0,True,False,35,0,79.3,RUNPERIOD 1,52560.0,1.0,1.0,52041.0,2
+RetailStandalone_Denver,base,two_passes,0,True,False,35,0,111.9,RUNPERIOD 1,52560.0,1.99,2.0,51663.0,2
+RetailStandalone_Denver,base,converged,0,True,False,36,0,264.5,RUNPERIOD 1,52560.0,13.4,50.0,2382.0,2
+RetailStandalone_Denver,base,release,0,True,False,39,0,61.8,,,,,,0
+RetailStandalone_Denver,window,one_pass,0,True,False,37,0,76.2,RUNPERIOD 1,52560.0,1.0,1.0,51885.0,2
+RetailStandalone_Denver,window,two_passes,0,True,False,36,0,89.2,RUNPERIOD 1,52560.0,1.99,2.0,51455.0,2
+RetailStandalone_Denver,window,converged,0,True,False,40,0,229.8,RUNPERIOD 1,52560.0,11.65,50.0,2071.0,2
+RetailStandalone_Denver,window,release,0,True,False,45,0,58.3,,,,,,0
+RetailStandalone_InternationalFalls,base,one_pass,0,True,False,42,0,47.0,RUNPERIOD 1,52560.0,1.0,1.0,48222.0,2
+RetailStandalone_InternationalFalls,base,two_passes,0,True,False,40,0,79.4,RUNPERIOD 1,52560.0,1.92,2.0,47329.0,2
+RetailStandalone_InternationalFalls,base,converged,0,True,False,45,0,185.2,RUNPERIOD 1,52560.0,11.02,50.0,1792.0,2
+RetailStandalone_InternationalFalls,base,release,0,True,False,45,0,35.2,,,,,,0
+RetailStandalone_InternationalFalls,window,one_pass,0,True,False,48,0,71.6,RUNPERIOD 1,52560.0,1.0,1.0,48084.0,2
+RetailStandalone_InternationalFalls,window,two_passes,0,True,False,45,0,100.9,RUNPERIOD 1,52560.0,1.92,2.0,47135.0,2
+RetailStandalone_InternationalFalls,window,converged,0,True,False,41,0,120.0,RUNPERIOD 1,52560.0,9.98,50.0,1252.0,2
+RetailStandalone_InternationalFalls,window,release,0,True,False,42,0,44.5,,,,,,0
+RetailStandalone_Miami,base,one_pass,0,True,False,27,0,73.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RetailStandalone_Miami,base,two_passes,0,True,False,23,0,113.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RetailStandalone_Miami,base,converged,0,True,False,27,0,544.6,RUNPERIOD 1,52560.0,20.27,50.0,8777.0,2
+RetailStandalone_Miami,base,release,0,True,False,27,0,68.8,,,,,,0
+RetailStandalone_Miami,window,one_pass,0,True,False,25,0,92.5,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+RetailStandalone_Miami,window,two_passes,0,True,False,27,0,109.8,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+RetailStandalone_Miami,window,converged,0,True,False,23,0,333.3,RUNPERIOD 1,52560.0,13.64,50.0,49.0,2
+RetailStandalone_Miami,window,release,0,True,False,25,0,82.2,,,,,,0
+RetailStripmall_Denver,base,one_pass,0,True,False,76,0,139.5,RUNPERIOD 1,52560.0,1.0,1.0,40745.0,2
+RetailStripmall_Denver,base,two_passes,0,True,False,76,0,169.4,RUNPERIOD 1,52560.0,1.78,2.0,40277.0,2
+RetailStripmall_Denver,base,converged,0,True,False,76,0,383.2,RUNPERIOD 1,52560.0,8.72,50.0,854.0,2
+RetailStripmall_Denver,base,release,0,True,False,76,0,115.5,,,,,,0
+RetailStripmall_Denver,window,one_pass,0,True,False,76,0,220.1,RUNPERIOD 1,52560.0,1.0,1.0,40109.0,2
+RetailStripmall_Denver,window,two_passes,0,True,False,76,0,227.4,RUNPERIOD 1,52560.0,1.77,2.0,39621.0,2
+RetailStripmall_Denver,window,converged,0,True,False,76,0,366.4,RUNPERIOD 1,52560.0,7.59,50.0,810.0,2
+RetailStripmall_Denver,window,release,0,True,False,72,0,68.1,,,,,,0
+RetailStripmall_InternationalFalls,base,one_pass,0,True,False,72,0,179.8,RUNPERIOD 1,52560.0,1.0,1.0,41340.0,2
+RetailStripmall_InternationalFalls,base,two_passes,0,True,False,70,0,160.8,RUNPERIOD 1,52560.0,1.79,2.0,39955.0,2
+RetailStripmall_InternationalFalls,base,converged,0,True,False,68,0,295.5,RUNPERIOD 1,52560.0,7.96,50.0,778.0,2
+RetailStripmall_InternationalFalls,base,release,0,True,False,74,0,95.2,,,,,,0
+RetailStripmall_InternationalFalls,window,one_pass,0,True,False,66,0,198.6,RUNPERIOD 1,52560.0,1.0,1.0,40986.0,2
+RetailStripmall_InternationalFalls,window,two_passes,0,True,False,66,0,169.1,RUNPERIOD 1,52560.0,1.78,2.0,39498.0,2
+RetailStripmall_InternationalFalls,window,converged,0,True,False,66,0,306.5,RUNPERIOD 1,52560.0,7.58,50.0,766.0,2
+RetailStripmall_InternationalFalls,window,release,0,True,False,64,0,108.6,,,,,,0
+RetailStripmall_Miami,base,one_pass,0,True,False,27,0,130.2,RUNPERIOD 1,52560.0,1.0,1.0,45800.0,2
+RetailStripmall_Miami,base,two_passes,0,True,False,29,0,178.9,RUNPERIOD 1,52560.0,1.87,2.0,41304.0,2
+RetailStripmall_Miami,base,converged,0,True,False,29,0,400.7,RUNPERIOD 1,52560.0,8.59,50.0,13.0,2
+RetailStripmall_Miami,base,release,0,True,False,29,0,96.0,,,,,,0
+SchoolPrimary_Denver,base,one_pass,0,True,False,88,4,428.4,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolPrimary_Denver,base,two_passes,0,True,False,90,4,383.3,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolPrimary_Denver,base,converged,0,True,False,94,6,1584.2,RUNPERIOD 1,52560.0,16.12,50.0,4334.0,2
+SchoolPrimary_Denver,base,release,0,True,False,94,3,341.5,,,,,,0
+SchoolPrimary_Denver,window,one_pass,0,True,False,89,5,287.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolPrimary_Denver,window,two_passes,0,True,False,89,5,372.4,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolPrimary_Denver,window,converged,0,True,False,93,4,986.2,RUNPERIOD 1,52560.0,14.63,50.0,4514.0,2
+SchoolPrimary_Denver,window,release,0,True,False,91,8,262.1,,,,,,0
+SchoolPrimary_InternationalFalls,base,one_pass,0,True,False,101,3,453.8,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolPrimary_InternationalFalls,base,two_passes,0,True,False,99,3,552.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolPrimary_InternationalFalls,base,converged,0,True,False,99,3,2389.4,RUNPERIOD 1,52560.0,18.53,50.0,8850.0,2
+SchoolPrimary_InternationalFalls,base,release,0,True,False,99,3,388.7,,,,,,0
+SchoolPrimary_InternationalFalls,window,one_pass,0,True,False,95,3,409.6,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolPrimary_InternationalFalls,window,two_passes,0,True,False,99,3,464.1,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolPrimary_InternationalFalls,window,converged,0,True,False,95,3,2069.7,RUNPERIOD 1,52560.0,17.79,50.0,8811.0,2
+SchoolPrimary_InternationalFalls,window,release,0,True,False,108,3,399.4,,,,,,0
+SchoolPrimary_Miami,base,one_pass,0,True,False,102,13,344.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolPrimary_Miami,base,two_passes,0,True,False,98,7,392.4,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolPrimary_Miami,base,converged,0,True,False,102,3,1877.9,RUNPERIOD 1,52560.0,18.89,50.0,5639.0,2
+SchoolPrimary_Miami,base,release,0,True,False,102,18,375.6,,,,,,0
+SchoolPrimary_Miami,window,one_pass,0,True,False,98,6,437.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolPrimary_Miami,window,two_passes,0,True,False,98,3,460.7,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolPrimary_Miami,window,converged,0,True,False,102,3,2028.8,RUNPERIOD 1,52560.0,27.05,50.0,14660.0,2
+SchoolPrimary_Miami,window,release,0,True,False,100,19,432.1,,,,,,0
+SchoolSecondary_Denver,base,one_pass,0,True,False,135,20,770.7,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolSecondary_Denver,base,two_passes,0,True,False,127,8,1143.1,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolSecondary_Denver,base,converged,0,True,False,138,9,2567.7,RUNPERIOD 1,52560.0,17.36,50.0,5334.0,2
+SchoolSecondary_Denver,base,release,0,True,False,130,5,743.4,,,,,,0
+SchoolSecondary_Denver,window,one_pass,0,True,False,127,12,908.2,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolSecondary_Denver,window,two_passes,0,True,False,126,6,1062.8,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolSecondary_Denver,window,converged,0,True,False,132,6,2208.2,RUNPERIOD 1,52560.0,15.21,50.0,4698.0,2
+SchoolSecondary_Denver,window,release,0,True,False,126,10,899.4,,,,,,0
+SchoolSecondary_InternationalFalls,base,one_pass,0,True,False,152,6,1115.6,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolSecondary_InternationalFalls,base,two_passes,0,True,False,151,4,1501.0,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolSecondary_InternationalFalls,base,converged,0,True,False,149,4,5014.5,RUNPERIOD 1,52560.0,23.6,50.0,15229.0,2
+SchoolSecondary_InternationalFalls,base,release,0,True,False,153,2,1057.9,,,,,,0
+SchoolSecondary_InternationalFalls,window,one_pass,0,True,False,145,2,1317.9,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolSecondary_InternationalFalls,window,two_passes,0,True,False,151,2,1202.2,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolSecondary_InternationalFalls,window,converged,0,True,False,151,2,4281.8,RUNPERIOD 1,52560.0,22.98,50.0,15181.0,2
+SchoolSecondary_InternationalFalls,window,release,0,True,False,149,2,848.7,,,,,,0
+SchoolSecondary_Miami,base,one_pass,0,True,False,152,11,778.7,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolSecondary_Miami,base,two_passes,0,True,False,150,17,1194.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolSecondary_Miami,base,converged,0,True,False,156,15,3077.1,RUNPERIOD 1,52560.0,21.43,50.0,6664.0,2
+SchoolSecondary_Miami,base,release,0,True,False,150,12,804.1,,,,,,0
+SchoolSecondary_Miami,window,one_pass,0,True,False,154,22,887.0,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+SchoolSecondary_Miami,window,two_passes,0,True,False,154,9,1249.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+SchoolSecondary_Miami,window,converged,0,True,False,133,7,2814.8,RUNPERIOD 1,52560.0,19.51,50.0,5912.0,2
+SchoolSecondary_Miami,window,release,0,True,False,154,27,794.6,,,,,,0
+Warehouse_Denver,base,one_pass,0,True,False,30,0,107.6,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Warehouse_Denver,base,two_passes,0,True,False,35,0,110.9,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Warehouse_Denver,base,converged,0,True,False,29,0,423.1,RUNPERIOD 1,52560.0,9.97,50.0,129.0,2
+Warehouse_Denver,base,release,0,True,False,32,0,77.2,,,,,,0
+Warehouse_Denver,window,one_pass,0,True,False,29,0,96.1,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Warehouse_Denver,window,two_passes,0,True,False,31,0,122.3,RUNPERIOD 1,52560.0,2.0,2.0,52559.0,2
+Warehouse_Denver,window,converged,0,True,False,29,0,435.9,RUNPERIOD 1,52560.0,8.54,50.0,131.0,2
+Warehouse_Denver,window,release,0,True,False,38,0,88.7,,,,,,0
+Warehouse_InternationalFalls,base,one_pass,0,True,False,26,0,40.3,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Warehouse_InternationalFalls,base,two_passes,0,True,False,24,0,75.2,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Warehouse_InternationalFalls,base,converged,0,True,False,26,0,209.0,RUNPERIOD 1,52560.0,8.23,50.0,29.0,2
+Warehouse_InternationalFalls,base,release,0,True,False,23,0,43.5,,,,,,0
+Warehouse_InternationalFalls,window,one_pass,0,True,False,22,0,67.6,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Warehouse_InternationalFalls,window,two_passes,0,True,False,24,0,47.8,RUNPERIOD 1,52560.0,2.0,2.0,52559.0,2
+Warehouse_InternationalFalls,window,converged,0,True,False,22,0,200.5,RUNPERIOD 1,52560.0,7.9,50.0,24.0,2
+Warehouse_InternationalFalls,window,release,0,True,False,23,0,22.6,,,,,,0
+Warehouse_Miami,base,one_pass,0,True,False,21,0,56.2,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Warehouse_Miami,base,two_passes,0,True,False,21,0,126.2,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Warehouse_Miami,base,converged,0,True,False,21,0,470.6,RUNPERIOD 1,52560.0,10.59,50.0,34.0,2
+Warehouse_Miami,base,release,0,True,False,21,0,83.6,,,,,,0
+Warehouse_Miami,window,one_pass,0,True,False,21,0,56.2,RUNPERIOD 1,52560.0,1.0,1.0,52560.0,2
+Warehouse_Miami,window,two_passes,0,True,False,21,0,97.0,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2
+Warehouse_Miami,window,converged,0,True,False,21,0,434.7,RUNPERIOD 1,52560.0,9.65,50.0,442.0,2
+Warehouse_Miami,window,release,0,True,False,21,0,60.0,,,,,,0

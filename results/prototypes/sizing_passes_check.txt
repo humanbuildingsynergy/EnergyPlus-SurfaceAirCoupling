@@ -1,0 +1,19 @@
+Sizing-only run of the small office distributed with EnergyPlus, Denver: do the passes run on the sizing design days?
+date: 2026-11-04 13:56 MST
+patched program: EnergyPlus, Version 26.2.0-643afd16ac (No OpenGL)
+run: weather-file run period off, so every non-warmup environment below is a sizing design day
+== release: EnergyPlus Completed Successfully-- 20 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  0.46sec
+(no surface-air pass lines)
+== passes_off: EnergyPlus Completed Successfully-- 20 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  0.39sec
+Surface-air passes: limit 0 per zone timestep, tolerance 1e-09 C, outside faces not re-solved, HVAC held fixed
+== two_passes: EnergyPlus Completed Successfully-- 20 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  0.46sec
+Surface-air passes: limit 2 per zone timestep, tolerance 1e-09 C, outside faces re-solved, HVAC re-simulated
+Surface-air passes: DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN HTG 99.6% CONDNS DB: 0 timesteps, mean extra passes 0.00, max 0, not converged 0
+Surface-air passes: DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN CLG .4% CONDNS DB=>MWB: 0 timesteps, mean extra passes 0.00, max 0, not converged 0
+Surface-air passes: DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN HTG 99.6% CONDNS DB: 96 timesteps, mean extra passes 2.00, max 2, not converged 96
+Surface-air passes: DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN CLG .4% CONDNS DB=>MWB: 96 timesteps, mean extra passes 2.00, max 2, not converged 96
+Surface-air passes: DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN HTG 99.6% CONDNS DB: 0 timesteps, mean extra passes 0.00, max 0, not converged 0
+Surface-air passes: DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN CLG .4% CONDNS DB=>MWB: 0 timesteps, mean extra passes 0.00, max 0, not converged 0
+Surface-air passes: ANNUAL: 0 timesteps, mean extra passes 0.00, max 0, not converged 0
+sizing lines in .eio: 177
+differing from release: passes_off 0, two_passes 135

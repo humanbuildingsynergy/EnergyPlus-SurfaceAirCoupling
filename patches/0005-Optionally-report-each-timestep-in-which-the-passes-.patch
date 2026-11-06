@@ -1,0 +1,99 @@
+From 6f533dcc2657bef917441056ed60ce83bf5b2a7b Mon Sep 17 00:00:00 2001
+From: Wooyoung Jung <wooyoung@arizona.edu>
+Date: Wed, 4 Nov 2026 13:36:38 -0700
+Subject: [PATCH 5/5] Optionally report each timestep in which the passes reach
+ their limit
+
+With SURFACE_AIR_LOG=1, each zone timestep that ends at the pass limit is written to eplusout.err
+with the zone of the largest last change and its air temperature over the last four passes.
+---
+ src/EnergyPlus/HVACManager.cc | 33 ++++++++++++++++++++++++++++++++-
+ src/EnergyPlus/HVACManager.hh |  1 +
+ 2 files changed, 33 insertions(+), 1 deletion(-)
+
+diff --git a/src/EnergyPlus/HVACManager.cc b/src/EnergyPlus/HVACManager.cc
+index 770f61a..30d7dcc 100644
+--- a/src/EnergyPlus/HVACManager.cc
++++ b/src/EnergyPlus/HVACManager.cc
+@@ -733,6 +733,7 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+     //   SURFACE_AIR_OUTSIDE  1 = also solve the outside surface heat balance again (default 0)
+     //   SURFACE_AIR_HVAC     1 = also repeat the predictor and SimHVAC in each pass, so the HVAC
+     //                        responds to the updated surfaces (default 0)
++    //   SURFACE_AIR_LOG      1 = report each timestep that reaches the pass limit (default 0)
+ 
+     auto &mgr = state.dataHVACMgr;
+     if (!mgr->surfAirIterInit) {
+@@ -747,6 +748,8 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+         mgr->surfAirOutside = (outside != nullptr) && (std::atoi(outside) != 0);
+         char const *hvac = std::getenv("SURFACE_AIR_HVAC");
+         mgr->surfAirHVAC = (hvac != nullptr) && (std::atoi(hvac) != 0);
++        char const *logNC = std::getenv("SURFACE_AIR_LOG");
++        mgr->surfAirLog = (logNC != nullptr) && (std::atoi(logNC) != 0);
+         ShowMessage(state,
+                     std::format("Surface-air passes: limit {} per zone timestep, tolerance {:.3g} C, outside faces {}, HVAC {}",
+                            mgr->surfAirMaxIter,
+@@ -765,6 +768,9 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+ 
+     int pass = 0;
+     bool converged = false;
++    Real64 lastDiff = 0.0;
++    int lastZone = 0;
++    std::vector<Real64> zoneTrace; // ZT of the last zone with the largest change, per pass
+     while (pass < mgr->surfAirMaxIter) {
+         prevZT.clear();
+         for (auto const &thisZoneHB : zoneHB) {
+@@ -829,9 +835,17 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+         Real64 maxDiff = 0.0;
+         i = 0;
+         for (auto const &thisZoneHB : zoneHB) {
+-            maxDiff = max(maxDiff, std::abs(thisZoneHB.ZT - prevZT[i]));
++            Real64 const d = std::abs(thisZoneHB.ZT - prevZT[i]);
++            if (d > maxDiff) {
++                maxDiff = d;
++                lastZone = int(i);
++            }
+             ++i;
+         }
++        lastDiff = maxDiff;
++        if (mgr->surfAirLog) {
++            zoneTrace.push_back(zoneHB[lastZone].ZT);
++        }
+         if (maxDiff < mgr->surfAirTol) {
+             converged = true;
+             break;
+@@ -843,6 +857,23 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+         mgr->surfAirPasses += pass;
+         if (!converged) {
+             ++mgr->surfAirNotConverged;
++            if (mgr->surfAirLog) {
++                std::string trace;
++                for (size_t k = zoneTrace.size() > 4 ? zoneTrace.size() - 4 : 0; k < zoneTrace.size(); ++k) {
++                    trace += std::format(" {:.6f}", zoneTrace[k]);
++                }
++                ShowMessage(state,
++                            std::format("Surface-air passes not converged: {} {:02d}/{:02d} hour {} ts {}, zone {}, "
++                                        "last change {:.3g} C, ZT last passes{}",
++                                        state.dataEnvrn->EnvironmentName,
++                                        state.dataEnvrn->Month,
++                                        state.dataEnvrn->DayOfMonth,
++                                        state.dataGlobal->HourOfDay,
++                                        state.dataGlobal->TimeStep,
++                                        state.dataHeatBal->Zone(lastZone + 1).Name,
++                                        lastDiff,
++                                        trace));
++            }
+         }
+         mgr->surfAirMaxPassesUsed = max(mgr->surfAirMaxPassesUsed, pass);
+     }
+diff --git a/src/EnergyPlus/HVACManager.hh b/src/EnergyPlus/HVACManager.hh
+index 52bb4d7..413d8fa 100644
+--- a/src/EnergyPlus/HVACManager.hh
++++ b/src/EnergyPlus/HVACManager.hh
+@@ -164,6 +164,7 @@ struct HVACManagerData : BaseGlobalStruct
+     bool surfAirIterInit = false;
+     int surfAirMaxIter = 0;     // maximum extra passes per zone timestep; 0 = off, as the release
+     bool surfAirOutside = false; // also re-solve the outside surface heat balance in each pass
++    bool surfAirLog = false;     // report each timestep that reaches the pass limit
+     bool surfAirHVAC = false;    // also repeat the predictor and SimHVAC in each pass
+     std::vector<Real64> zoneNodeTempStart;    // zone air node temperature at the start of the zone timestep
+     std::vector<Real64> zoneNodeHumRatStart;  // zone air node humidity ratio at the start of the zone timestep

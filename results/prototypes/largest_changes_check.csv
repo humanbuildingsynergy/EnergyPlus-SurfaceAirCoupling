@@ -1,0 +1,13 @@
+case,configuration,metric,rerun,study,equal
+OutPatientHealthCare_Miami,release,heating_GJ,401.24,401.24,True
+OutPatientHealthCare_Miami,release,fans_GJ,358.97,358.97,True
+OutPatientHealthCare_Miami,two_passes,heating_GJ,380.64,380.64,True
+OutPatientHealthCare_Miami,two_passes,fans_GJ,363.01,363.01,True
+OutPatientHealthCare_Denver,release,heating_GJ,781.64,781.64,True
+OutPatientHealthCare_Denver,release,fans_GJ,361.52,361.52,True
+OutPatientHealthCare_Denver,two_passes,heating_GJ,758.74,758.74,True
+OutPatientHealthCare_Denver,two_passes,fans_GJ,363.14,363.14,True
+SchoolSecondary_InternationalFalls,release,heating_GJ,3507.72,3507.72,True
+SchoolSecondary_InternationalFalls,release,fans_GJ,967.5,967.5,True
+SchoolSecondary_InternationalFalls,two_passes,heating_GJ,3501.7,3501.7,True
+SchoolSecondary_InternationalFalls,two_passes,fans_GJ,952.88,952.88,True

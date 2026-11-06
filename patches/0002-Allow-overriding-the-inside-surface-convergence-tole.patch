@@ -1,0 +1,36 @@
+From 82ae77da0d90bae5af9959cc9aad2d4bb29d142d Mon Sep 17 00:00:00 2001
+From: Wooyoung Jung <wooyoung@arizona.edu>
+Date: Wed, 4 Nov 2026 10:25:10 -0700
+Subject: [PATCH 2/5] Allow overriding the inside surface convergence tolerance
+
+INSIDE_SURFACE_TOL [C] replaces MaxAllowedDelTemp, also below the input minimum of 0.002 C,
+so that the effect of this stopping rule on accuracy can be measured.
+---
+ src/EnergyPlus/HeatBalanceSurfaceManager.cc | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+diff --git a/src/EnergyPlus/HeatBalanceSurfaceManager.cc b/src/EnergyPlus/HeatBalanceSurfaceManager.cc
+index 4b67cd4..89df738 100644
+--- a/src/EnergyPlus/HeatBalanceSurfaceManager.cc
++++ b/src/EnergyPlus/HeatBalanceSurfaceManager.cc
+@@ -47,6 +47,7 @@
+ 
+ // C++ Headers
+ #include <algorithm>
++#include <cstdlib>
+ #include <cassert>
+ #include <cmath>
+ #include <format>
+@@ -8057,6 +8058,12 @@ void CalcHeatBalanceInsideSurf(EnergyPlusData &state,
+                 }
+             }
+         }
++        // Optional inside surface convergence tolerance [C], allowed below the IDD minimum of
++        // 0.002 C so that the effect of this stopping rule on accuracy can be measured.
++        if (char const *tol = std::getenv("INSIDE_SURFACE_TOL"); tol != nullptr) {
++            state.dataHeatBal->MaxAllowedDelTemp = std::atof(tol);
++            ShowMessage(state, std::format("Inside surface convergence tolerance set to {:.3g} C", state.dataHeatBal->MaxAllowedDelTemp));
++        }
+         state.dataHeatBalSurfMgr->calcHeatBalInsideSurfFirstTime = false;
+     }
+ 

@@ -1,0 +1,40 @@
+case,type,name,field
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Core_bottom VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_bot_ZN_1 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_bot_ZN_2 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_bot_ZN_3 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_bot_ZN_4 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Core_mid VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_mid_ZN_1 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_mid_ZN_2 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_mid_ZN_3 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_mid_ZN_4 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Core_top VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_top_ZN_1 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_top_ZN_2 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_top_ZN_3 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,AirTerminal:SingleDuct:VAV:Reheat,Perimeter_top_ZN_4 VAV Box Component,Maximum Hot Water or Steam Flow Rate {m3/s}
+OfficeMedium_Denver,WaterHeater:Mixed,SWHSys1 Water Heater,Source Side Design Flow Rate {m3/s}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_2:5,Design Outdoor Air Flow Rate {m3/s}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_2:5,Cooling Design Capacity {W}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_2:5,Heating Design Capacity {W}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_1:6,Design Outdoor Air Flow Rate {m3/s}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_1:6,Cooling Design Capacity {W}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_1:6,Heating Design Capacity {W}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_2:7,Design Outdoor Air Flow Rate {m3/s}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_2:7,Cooling Design Capacity {W}
+SchoolPrimary_Denver,Sizing:System,PSZ-AC_2:7,Heating Design Capacity {W}
+SchoolPrimary_Denver,WaterHeater:Mixed,SWHSys1 Water Heater,Source Side Design Flow Rate {m3/s}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:1,Design Outdoor Air Flow Rate {m3/s}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:1,Cooling Design Capacity {W}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:1,Heating Design Capacity {W}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:2,Design Outdoor Air Flow Rate {m3/s}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:2,Cooling Design Capacity {W}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:2,Heating Design Capacity {W}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:3,Design Outdoor Air Flow Rate {m3/s}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:3,Cooling Design Capacity {W}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:3,Heating Design Capacity {W}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:4,Design Outdoor Air Flow Rate {m3/s}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:4,Cooling Design Capacity {W}
+RetailStandalone_Denver,Sizing:System,PSZ-AC:4,Heating Design Capacity {W}
+RetailStandalone_Denver,ZoneHVAC:UnitHeater,Front_Entry Unit Heater,Maximum Hot Water or Steam Flow Rate {m3/s}

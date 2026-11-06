@@ -1,0 +1,5 @@
+quantity,value,unit
+zone_volume,1061.88,m3
+UA,143.992,W/K
+max_abs_DOP853_minus_Radau,2e-08,C
+humidity_effect_on_rho_cp_range,0.06,%

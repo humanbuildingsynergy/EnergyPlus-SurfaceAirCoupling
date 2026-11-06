@@ -1,0 +1,7 @@
+case,configuration,ts,wall_s,completed
+OfficeMedium_Denver,converged,60,1572.13,True
+OfficeMedium_Denver,converged,30,896.71,True
+SchoolPrimary_Denver,converged,60,4035.47,True
+SchoolPrimary_Denver,converged,30,2564.81,True
+RetailStandalone_Denver,converged,60,764.9,True
+RetailStandalone_Denver,converged,30,449.68,True

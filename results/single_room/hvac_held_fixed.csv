@@ -1,0 +1,13 @@
+configuration,algo,day,max_excursion_ts04_C,max_excursion_ts30_C
+both_faces,AnalyticalSolution,CLG,0.001756,4.516e-05
+both_faces,AnalyticalSolution,HTG,8.612e-05,2.653e-06
+both_faces,EulerMethod,CLG,0.001392,4.269e-05
+both_faces,EulerMethod,HTG,6.089e-05,2.497e-06
+both_faces,ThirdOrderBackwardDifference,CLG,0.0009729,2.451e-05
+both_faces,ThirdOrderBackwardDifference,HTG,4.984e-05,1.449e-06
+converged,AnalyticalSolution,CLG,1.354e-11,0
+converged,AnalyticalSolution,HTG,3.553e-15,1.776e-15
+converged,EulerMethod,CLG,2.377e-08,3.553e-15
+converged,EulerMethod,HTG,3.553e-15,1.776e-15
+converged,ThirdOrderBackwardDifference,CLG,3.553e-15,0
+converged,ThirdOrderBackwardDifference,HTG,1.776e-15,3.553e-15

@@ -1,0 +1,4 @@
+case,check,heating_GJ_pct,cooling_GJ_pct,site_GJ_pct,cool_cap_W_pct,heat_cap_W_pct,fan_flow_m3s_pct
+OfficeMedium_Denver,release 6/h hard-sized vs autosized study run,0,0,0,-100,-100,-100
+SchoolPrimary_Denver,release 6/h hard-sized vs autosized study run,0.0292334,-0.0138471,0.0169461,-100,-100,-100
+RetailStandalone_Denver,release 6/h hard-sized vs autosized study run,0,0.0106033,0,,-100,-100

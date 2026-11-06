@@ -1,0 +1,24 @@
+case,n_values,max_abs_diff,n_different,rel_diff
+room_free_ThirdOrderBackwardDifference_ts04,1344,0.0,0,
+room_free_ThirdOrderBackwardDifference_ts60,20160,0.0,0,
+room_free_AnalyticalSolution_ts04,1344,0.0,0,
+room_free_AnalyticalSolution_ts60,20160,0.0,0,
+room_free_EulerMethod_ts04,1344,0.0,0,
+room_free_EulerMethod_ts60,20160,0.0,0,
+room_ideal_ThirdOrderBackwardDifference_ts04,1728,0.0,0,
+room_ideal_ThirdOrderBackwardDifference_ts60,25920,0.0,0,
+room_ideal_AnalyticalSolution_ts04,1728,0.0,0,
+room_ideal_AnalyticalSolution_ts60,25920,0.0,0,
+room_ideal_EulerMethod_ts04,1728,0.0,0,
+room_ideal_EulerMethod_ts60,25920,0.0,0,
+office_ts04:elec_Heating_GJ,1,0.0,0,0.0
+office_ts04:gas_Heating_GJ,1,0.0,0,0.0
+office_ts04:elec_Cooling_GJ,1,0.0,0,0.0
+office_ts04:elec_Interior Lighting_GJ,1,0.0,0,0.0
+office_ts04:elec_Interior Equipment_GJ,1,0.0,0,0.0
+office_ts04:elec_Fans_GJ,1,0.0,0,0.0
+office_ts04:elec_Total End Uses_GJ,1,0.0,0,0.0
+office_ts04:gas_Total End Uses_GJ,1,0.0,0,0.0
+office_ts04:peak_elec_W,1,0.0,0,0.0
+office_ts04:unmet_heat_occ_h,1,0.0,0,0.0
+office_ts04:unmet_cool_occ_h,1,0.0,0,0.0

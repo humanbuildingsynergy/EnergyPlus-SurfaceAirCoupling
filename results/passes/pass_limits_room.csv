@@ -1,0 +1,15 @@
+case,setting,iteration_error_C,timestep_error_converged_C,release_error_C,mean_passes,max_passes,not_converged
+free,converged,0,0.007058,0.1478,6.74,8,0
+free,tol_1e-2,0.01682,0.007058,0.1478,1.03,2,0
+free,tol_1e-3,0.005866,0.007058,0.1478,1.92,2,0
+free,tol_1e-3_inside_1e-4,0.001965,0.007058,0.1478,1.92,2,0
+free,tol_1e-4_inside_1e-5,0.000228,0.007058,0.1478,2.85,3,0
+free,passes_1,0.02269,0.007058,0.1478,1,1,96
+free,passes_2,0.00505,0.007058,0.1478,2,2,96
+free_nosolar,converged,0,0.002528,0.0594,5.68,7,0
+free_nosolar,tol_1e-2,0.01002,0.002528,0.0594,1,1,0
+free_nosolar,tol_1e-3,0.004084,0.002528,0.0594,1.65,2,0
+free_nosolar,tol_1e-3_inside_1e-4,0.000822,0.002528,0.0594,1.66,2,0
+free_nosolar,tol_1e-4_inside_1e-5,0.0004102,0.002528,0.0594,1.98,2,0
+free_nosolar,passes_1,0.01003,0.002528,0.0594,1,1,96
+free_nosolar,passes_2,0.003806,0.002528,0.0594,2,2,96

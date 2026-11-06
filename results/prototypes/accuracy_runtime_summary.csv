@@ -1,0 +1,10 @@
+case,measure,two_passes_ts04_error,release_ts_needed,release_reached,release_runtime_needed_s,two_passes_ts04_runtime_s,ratio,ratio_is_lower_bound
+OfficeMedium_Denver,air_rms_C,0.2342,4,True,34.85,54.36,0.6411,False
+OfficeMedium_Denver,heating_err,0.08948,20.13,True,121.7,54.36,2.238,False
+OfficeMedium_Denver,cooling_err,0.05921,16.69,True,105.9,54.36,1.948,False
+SchoolPrimary_Denver,air_rms_C,0.3566,4,True,124.8,147.8,0.844,False
+SchoolPrimary_Denver,heating_err,0.08991,4,True,124.8,147.8,0.844,False
+SchoolPrimary_Denver,cooling_err,0.04932,22.95,True,335.5,147.8,2.269,False
+RetailStandalone_Denver,air_rms_C,0.2174,4,True,21.51,35.43,0.6071,False
+RetailStandalone_Denver,heating_err,0.191,4,True,21.51,35.43,0.6071,False
+RetailStandalone_Denver,cooling_err,0.02653,6.589,True,25.81,35.43,0.7284,False

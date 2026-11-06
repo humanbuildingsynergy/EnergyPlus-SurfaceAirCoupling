@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Surface–air coupling passes for EnergyPlus 26.2.0: patches, scripts and results"
+message: "If you use these patches, scripts or results, please cite the paper and this archive."
+type: software
+authors:
+  - family-names: Jung
+    given-names: Wooyoung
+    email: wooyoung@arizona.edu
+    affiliation: "University of Arizona"
+    orcid: "https://orcid.org/0000-0003-2746-4983"
+repository-code: "https://github.com/humanbuildingsynergy/EnergyPlus-SurfaceAirCoupling"
+license: BSD-3-Clause
+version: 1.0.0
+abstract: >-
+  Research patches to EnergyPlus version 26.2.0 that add optional passes solving the surface heat
+  balances, the zone air balance and the HVAC to agreement within each zone timestep, with the
+  scripts and summary results of a study of the order of accuracy of the zone heat balance on
+  simple models with exact or converged references and on 45 U.S. Department of Energy prototype
+  building cases. Not affiliated with or endorsed by the U.S. Department of Energy or the
+  EnergyPlus development team.
+keywords:
+  - building energy simulation
+  - EnergyPlus
+  - zone heat balance
+  - order of accuracy
+  - numerical verification
+  - prototype buildings

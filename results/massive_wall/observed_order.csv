@@ -1,0 +1,10 @@
+method,var,order_vs_exact,order_vs_ts60,order_vs_ts30
+CTF,Surface Inside Face Temperature,0.21,0.4,2.04
+CTF,Surface Outside Face Temperature,0.0,,
+CTF,Zone Mean Air Temperature,-0.28,-0.27,-0.1
+CondFD_CrankNicholson,Surface Inside Face Temperature,-0.0,0.0,0.0
+CondFD_CrankNicholson,Surface Outside Face Temperature,-0.0,0.0,-0.0
+CondFD_CrankNicholson,Zone Mean Air Temperature,0.0,0.0,0.0
+CondFD_FullyImplicit,Surface Inside Face Temperature,0.0,0.0,0.0
+CondFD_FullyImplicit,Surface Outside Face Temperature,-0.0,0.0,-0.0
+CondFD_FullyImplicit,Zone Mean Air Temperature,0.0,0.0,0.0

@@ -1,0 +1,256 @@
+case,component,KeyValue,release_GJ,two_passes_GJ,delta_GJ,share_of_total_delta
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 OPERATING ROOM 3 VAV BOX REHEAT COIL,71.807,69.827,-1.9798,0.13205
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 RECOVERY ROOM VAV BOX REHEAT COIL,9.582,8.313,-1.269,0.084637
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 PROCEDURE ROOM VAV BOX REHEAT COIL,60.732,59.583,-1.1489,0.07663
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 PRE-OP ROOM 2 VAV BOX REHEAT COIL,16.255,15.209,-1.0461,0.069774
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 SOIL WORK VAV BOX REHEAT COIL,8.0703,7.2109,-0.85934,0.057316
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 CLEAN WORK VAV BOX REHEAT COIL,6.7552,6.0431,-0.71203,0.047491
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 PACU VAV BOX REHEAT COIL,4.9993,4.3947,-0.60463,0.040327
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 SOIL VAV BOX REHEAT COIL,5.62,5.0317,-0.58836,0.039242
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 CLEAN VAV BOX REHEAT COIL,4.622,4.0853,-0.53664,0.035792
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 3 VAV BOX REHEAT COIL,3.6652,3.1896,-0.47559,0.031721
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 PRE-OP ROOM 1 VAV BOX REHEAT COIL,8.1956,7.7263,-0.46929,0.0313
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 ANESTHESIA VAV BOX REHEAT COIL,2.9181,2.4726,-0.44545,0.02971
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 STEP DOWN VAV BOX REHEAT COIL,2.4828,2.0604,-0.42242,0.028174
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 7 VAV BOX REHEAT COIL,5.0701,4.6543,-0.41581,0.027733
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 9 VAV BOX REHEAT COIL,1.8099,1.4402,-0.36966,0.024655
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 NURSE TOILET VAV BOX REHEAT COIL,2.9674,2.672,-0.2954,0.019703
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 2 VAV BOX REHEAT COIL,1.8046,1.5382,-0.26638,0.017767
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 LOUNGE TOILET VAV BOX REHEAT COIL,1.5214,1.2656,-0.2558,0.017062
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 SOIL HOLD VAV BOX REHEAT COIL,2.3466,2.0911,-0.2555,0.017041
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 OPERATING ROOM 2 VAV BOX REHEAT COIL,10.631,10.394,-0.23742,0.015836
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 STORAGE 1 VAV BOX REHEAT COIL,1.2421,1.0354,-0.20666,0.013784
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 MRI TOILET VAV BOX REHEAT COIL,1.755,1.5559,-0.19908,0.013278
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 RECEPTION TOILET VAV BOX REHEAT COIL,0.95419,0.758,-0.19619,0.013086
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 OPERATING ROOM 1 VAV BOX REHEAT COIL,8.8846,8.6945,-0.19002,0.012674
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 PRE-OP TOILET VAV BOX REHEAT COIL,2.2576,2.0985,-0.15908,0.01061
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 6 VAV BOX REHEAT COIL,0.81637,0.66543,-0.15094,0.010067
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 PHYSICAL THERAPY TOILET VAV BOX REHEAT COIL,0.62635,0.47638,-0.14997,0.010003
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 LOBBY TOILET VAV BOX REHEAT COIL,2.4183,2.2732,-0.1451,0.0096777
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 8 VAV BOX REHEAT COIL,0.74587,0.60165,-0.14423,0.0096195
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 CONFERENCE TOILET VAV BOX REHEAT COIL,0.762,0.62827,-0.13372,0.0089191
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 PHYSICAL THERAPY 1 VAV BOX REHEAT COIL,1.1138,0.99155,-0.12225,0.0081541
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 TREATMENT VAV BOX REHEAT COIL,0.45272,0.34317,-0.10954,0.0073062
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 PHYSICAL THERAPY 2 VAV BOX REHEAT COIL,0.75971,0.65781,-0.1019,0.0067966
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 STORAGE VAV BOX REHEAT COIL,1.0684,1.0148,-0.05358,0.0035737
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 WORK TOILET VAV BOX REHEAT COIL,0.95398,0.90503,-0.04895,0.0032649
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 OFFICE TOILET VAV BOX REHEAT COIL,0.95805,0.92722,-0.030833,0.0020565
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 5 VAV BOX REHEAT COIL,0.27164,0.24608,-0.025558,0.0017046
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 1 VAV BOX REHEAT COIL,0.20632,0.18091,-0.025412,0.0016949
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 UTILITY HALL VAV BOX REHEAT COIL,0.089813,0.075158,-0.014655,0.00097744
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM 4 VAV BOX REHEAT COIL,0.050093,0.035683,-0.01441,0.0009611
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,NE STAIR VAV BOX REHEAT COIL,0.31841,0.30404,-0.014368,0.00095834
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 BIO HAZ VAV BOX REHEAT COIL,0.053989,0.040259,-0.01373,0.00091575
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,NW STAIR VAV BOX REHEAT COIL,0.33485,0.32405,-0.010791,0.00071971
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,NW ELEVATOR VAV BOX REHEAT COIL,0.17236,0.16324,-0.009118,0.00060815
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 NURSE HALL VAV BOX REHEAT COIL,0.012487,0.0047124,-0.0077742,0.00051852
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 MED GAS VAV BOX REHEAT COIL,0.17159,0.16386,-0.0077296,0.00051555
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 UTILITY ROOM VAV BOX REHEAT COIL,0.043882,0.037786,-0.0060958,0.00040658
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 JANITOR VAV BOX REHEAT COIL,0.13553,0.13022,-0.0053092,0.00035411
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 IT HALL VAV BOX REHEAT COIL,0.0091878,0.0042071,-0.0049807,0.0003322
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,SW STAIR VAV BOX REHEAT COIL,0.092456,0.087618,-0.0048374,0.00032265
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 JANITOR VAV BOX REHEAT COIL,0.060399,0.056724,-0.0036751,0.00024512
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 UTILITY VAV BOX REHEAT COIL,0.0091786,0.005855,-0.0033236,0.00022167
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 VESTIBULE VAV BOX REHEAT COIL,0.75126,0.74814,-0.0031174,0.00020792
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 UNDEVELOPED 2 VAV BOX REHEAT COIL,0.034878,0.031798,-0.0030805,0.00020546
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 UNDEVELOPED 1 VAV BOX REHEAT COIL,0.030166,0.027728,-0.0024382,0.00016262
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 ELEVATOR PUMP ROOM VAV BOX REHEAT COIL,0.011282,0.0091947,-0.0020875,0.00013923
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 STORAGE 1 VAV BOX REHEAT COIL,0.0044328,0.0025507,-0.001882,0.00012553
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 CONFERENCE VAV BOX REHEAT COIL,0.018781,0.017055,-0.0017256,0.00011509
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 OFFICE VAV BOX REHEAT COIL,0.014581,0.013097,-0.0014834,9.894e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 UTILITY VAV BOX REHEAT COIL,0.0098401,0.0086861,-0.0011541,7.6974e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 SUB-STERILE VAV BOX REHEAT COIL,0.0065893,0.0055318,-0.0010576,7.0536e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 WORK VAV BOX REHEAT COIL,0.011365,0.010419,-0.000946,6.3096e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 DRESSING ROOM VAV BOX REHEAT COIL,0.0050977,0.0042511,-0.00084659,5.6466e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 IT ROOM VAV BOX REHEAT COIL,0.0013405,0.00058679,-0.00075368,5.0269e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 STORAGE 2 VAV BOX REHEAT COIL,0.0013595,0.00069899,-0.00066054,4.4057e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 PRE-OP HALL VAV BOX REHEAT COIL,0.00066221,0.00015937,-0.00050284,3.3538e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 STORAGE 2 VAV BOX REHEAT COIL,0.0016652,0.0011628,-0.00050239,3.3508e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 RECEPTION VAV BOX REHEAT COIL,0.0063063,0.0059262,-0.00038014,2.5354e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 STORAGE 3 VAV BOX REHEAT COIL,0.00055534,0.00020501,-0.00035032,2.3366e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 STERILE STORAGE VAV BOX REHEAT COIL,0.00039676,6.8264e-05,-0.00032849,2.191e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 STERILE HALL VAV BOX REHEAT COIL,0.00052347,0.0002004,-0.00032307,2.1548e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 ELEVATOR HALL VAV BOX REHEAT COIL,0.0024942,0.0021942,-0.00029995,2.0006e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 3 VAV BOX REHEAT COIL,0.00064907,0.00035117,-0.0002979,1.9869e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 OFFICE VAV BOX REHEAT COIL,0.0033712,0.003085,-0.00028619,1.9088e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 UTILITY JANITOR VAV BOX REHEAT COIL,0.00045125,0.0002297,-0.00022155,1.4777e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 OFFICE HALL VAV BOX REHEAT COIL,0.0013478,0.0011734,-0.0001744,1.1632e-05
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 2 VAV BOX REHEAT COIL,0.00025502,0.00013869,-0.00011632,7.7586e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 1 VAV BOX REHEAT COIL,0.00038148,0.0002781,-0.00010337,6.8947e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 SCHEDULING VAV BOX REHEAT COIL,0.00019068,0.00011419,-7.6487e-05,5.1015e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 NURSE JANITOR VAV BOX REHEAT COIL,7.2828e-05,5.4991e-06,-6.7329e-05,4.4907e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 LOBBY VAV BOX REHEAT COIL,0.00024632,0.00018197,-6.4344e-05,4.2916e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 LOCKER ROOM HALL VAV BOX REHEAT COIL,6.0508e-05,0,-6.0508e-05,4.0357e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 SCRUB VAV BOX REHEAT COIL,9.2783e-05,4.4366e-05,-4.8417e-05,3.2293e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 4 VAV BOX REHEAT COIL,7.9861e-05,3.2915e-05,-4.6946e-05,3.1312e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 LOUNGE VAV BOX REHEAT COIL,0.00072517,0.00068094,-4.4224e-05,2.9496e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 MECHANICAL HALL VAV BOX REHEAT COIL,0.00030213,0.00026366,-3.8474e-05,2.5661e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 DICTATION VAV BOX REHEAT COIL,4.5602e-05,1.0309e-05,-3.5293e-05,2.354e-06
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 6 VAV BOX REHEAT COIL,2.1721e-05,1.2184e-05,-9.5373e-06,6.3612e-07
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 RECEPTION HALL VAV BOX REHEAT COIL,8.7345e-06,0,-8.7345e-06,5.8257e-07
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 5 VAV BOX REHEAT COIL,4.4364e-06,0,-4.4364e-06,2.959e-07
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 HUMID VAV BOX REHEAT COIL,4.3545e-06,0,-4.3545e-06,2.9044e-07
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 ELECTRICAL ROOM VAV BOX REHEAT COIL,1.6925e-05,1.3631e-05,-3.2934e-06,2.1966e-07
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 LOCKER VAV BOX REHEAT COIL,4.1551e-05,3.878e-05,-2.7708e-06,1.848e-07
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 DRESSING ROOM VAV BOX REHEAT COIL,6.4368e-06,3.9215e-06,-2.5152e-06,1.6776e-07
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 OFFICE HALL VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 DICTATION VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,AHU-2 HEATING COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 NURSE STATION 2 VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 NURSE STATION 1 VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 LOUNGE VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 RECEPTION VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,AHU-1 HEATING COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 CAFE VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 RECEPTION HALL VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 X-RAY VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 OFFICE VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 WORK HALL VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 WORK VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 SCHEDULING 1 VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 2 SCHEDULING 2 VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 NOURISHMENT VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 NURSE STATION VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 LOCKER ROOM VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 3 MECHANICAL VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 LOUNGE VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 MRI CONTROL ROOM VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 MRI ROOM VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 MRI HALL VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 HUMID VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Miami,Heating Coil Heating Energy,FLOOR 1 LOBBY HALL VAV BOX REHEAT COIL,0,0,0,-0
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 OPERATING ROOM 3 VAV BOX REHEAT COIL,67.273,65.266,-2.0075,0.11708
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 RECOVERY ROOM VAV BOX REHEAT COIL,26.161,25.023,-1.1377,0.066351
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 SOIL WORK VAV BOX REHEAT COIL,9.1351,8.3467,-0.78842,0.045983
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 7 VAV BOX REHEAT COIL,15.396,14.609,-0.78648,0.04587
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 PROCEDURE ROOM VAV BOX REHEAT COIL,53.67,52.902,-0.76761,0.044769
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 CLEAN WORK VAV BOX REHEAT COIL,7.607,6.9325,-0.67447,0.039337
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 PRE-OP ROOM 2 VAV BOX REHEAT COIL,10.655,10.046,-0.60828,0.035477
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 PACU VAV BOX REHEAT COIL,5.5652,4.9586,-0.60663,0.03538
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 SOIL VAV BOX REHEAT COIL,6.1166,5.5364,-0.5802,0.033839
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 CLEAN VAV BOX REHEAT COIL,5.0801,4.519,-0.56108,0.032724
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 9 VAV BOX REHEAT COIL,8.8031,8.3079,-0.49526,0.028885
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 2 VAV BOX REHEAT COIL,8.7838,8.3113,-0.47244,0.027554
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 STEP DOWN VAV BOX REHEAT COIL,11.685,11.278,-0.40784,0.023787
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 PRE-OP ROOM 1 VAV BOX REHEAT COIL,8.4354,8.0654,-0.37,0.021579
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 PHYSICAL THERAPY 2 VAV BOX REHEAT COIL,7.1469,6.784,-0.36288,0.021164
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 LOUNGE TOILET VAV BOX REHEAT COIL,6.8306,6.5024,-0.32819,0.019141
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 3 VAV BOX REHEAT COIL,13.508,13.18,-0.32791,0.019124
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 ANESTHESIA VAV BOX REHEAT COIL,6.3987,6.1071,-0.29161,0.017008
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 NURSE TOILET VAV BOX REHEAT COIL,3.2092,2.9337,-0.27549,0.016067
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 8 VAV BOX REHEAT COIL,6.6911,6.4252,-0.26585,0.015505
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 OFFICE VAV BOX REHEAT COIL,5.6137,5.3744,-0.23934,0.013959
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 TREATMENT VAV BOX REHEAT COIL,4.955,4.7162,-0.23875,0.013925
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 STORAGE VAV BOX REHEAT COIL,22.729,22.492,-0.23697,0.013821
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 6 VAV BOX REHEAT COIL,6.3022,6.0746,-0.22755,0.013271
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 OPERATING ROOM 2 VAV BOX REHEAT COIL,19.935,19.713,-0.222,0.012948
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 STORAGE 1 VAV BOX REHEAT COIL,2.5649,2.3451,-0.21978,0.012818
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 SOIL HOLD VAV BOX REHEAT COIL,3.3806,3.1613,-0.21929,0.01279
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 RECEPTION TOILET VAV BOX REHEAT COIL,2.3245,2.1114,-0.21313,0.012431
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 OPERATING ROOM 1 VAV BOX REHEAT COIL,18.861,18.675,-0.18681,0.010895
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 MRI TOILET VAV BOX REHEAT COIL,2.9477,2.7869,-0.16088,0.0093829
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,NW ELEVATOR VAV BOX REHEAT COIL,10.518,10.36,-0.15777,0.0092015
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 PHYSICAL THERAPY TOILET VAV BOX REHEAT COIL,1.5964,1.4526,-0.14386,0.0083903
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 CONFERENCE TOILET VAV BOX REHEAT COIL,1.61,1.4713,-0.13869,0.008089
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 UTILITY HALL VAV BOX REHEAT COIL,4.2505,4.123,-0.12754,0.0074383
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,NE STAIR VAV BOX REHEAT COIL,16.188,16.067,-0.12143,0.0070819
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 PRE-OP TOILET VAV BOX REHEAT COIL,4.6026,4.49,-0.11267,0.0065712
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,SW STAIR VAV BOX REHEAT COIL,6.2903,6.1808,-0.10943,0.0063823
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 UTILITY ROOM VAV BOX REHEAT COIL,3.7046,3.5978,-0.10678,0.0062276
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,NW STAIR VAV BOX REHEAT COIL,18.281,18.181,-0.10044,0.005858
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 UNDEVELOPED 2 VAV BOX REHEAT COIL,5.536,5.4356,-0.10042,0.0058568
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 LOBBY TOILET VAV BOX REHEAT COIL,4.353,4.2556,-0.097403,0.0056808
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 WORK VAV BOX REHEAT COIL,3.3689,3.2744,-0.094496,0.0055113
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 5 VAV BOX REHEAT COIL,9.1456,9.077,-0.068625,0.0040024
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 MED GAS VAV BOX REHEAT COIL,4.371,4.3058,-0.065234,0.0038046
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 OFFICE VAV BOX REHEAT COIL,2.1496,2.0857,-0.063889,0.0037262
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 OFFICE HALL VAV BOX REHEAT COIL,0.71354,0.65397,-0.059575,0.0034746
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 UNDEVELOPED 1 VAV BOX REHEAT COIL,5.8045,5.7497,-0.05481,0.0031967
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 JANITOR VAV BOX REHEAT COIL,2.3668,2.3123,-0.054503,0.0031788
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 VESTIBULE VAV BOX REHEAT COIL,5.1355,5.0814,-0.054145,0.0031579
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 PRE-OP HALL VAV BOX REHEAT COIL,0.25328,0.19954,-0.053739,0.0031342
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 NURSE HALL VAV BOX REHEAT COIL,0.18298,0.13132,-0.051659,0.0030129
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 SUB-STERILE VAV BOX REHEAT COIL,1.3655,1.3184,-0.047095,0.0027467
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 1 VAV BOX REHEAT COIL,8.5392,8.4943,-0.044973,0.0026229
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 ELEVATOR HALL VAV BOX REHEAT COIL,0.93958,0.89646,-0.043117,0.0025147
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 JANITOR VAV BOX REHEAT COIL,3.1606,3.1179,-0.042687,0.0024896
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 CONFERENCE VAV BOX REHEAT COIL,2.9374,2.895,-0.042367,0.0024709
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 STERILE HALL VAV BOX REHEAT COIL,0.27254,0.23182,-0.040715,0.0023746
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 UTILITY VAV BOX REHEAT COIL,0.46427,0.42725,-0.037024,0.0021593
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 PHYSICAL THERAPY 1 VAV BOX REHEAT COIL,29.703,29.667,-0.035805,0.0020883
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 BIO HAZ VAV BOX REHEAT COIL,0.52331,0.48763,-0.035686,0.0020813
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 IT HALL VAV BOX REHEAT COIL,0.16443,0.12974,-0.034689,0.0020232
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 ELEVATOR PUMP ROOM VAV BOX REHEAT COIL,1.0917,1.0593,-0.032487,0.0018947
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM 4 VAV BOX REHEAT COIL,1.625,1.5962,-0.028739,0.0016762
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 LOBBY VAV BOX REHEAT COIL,0.90302,0.8749,-0.028116,0.0016398
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 WORK VAV BOX REHEAT COIL,0.65822,0.63129,-0.02693,0.0015707
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 UTILITY VAV BOX REHEAT COIL,1.0326,1.0063,-0.026356,0.0015372
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 WORK TOILET VAV BOX REHEAT COIL,3.0517,3.0253,-0.026347,0.0015366
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 DRESSING ROOM VAV BOX REHEAT COIL,0.76253,0.73859,-0.023941,0.0013963
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 STORAGE 3 VAV BOX REHEAT COIL,0.22874,0.20804,-0.020709,0.0012078
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 MECHANICAL HALL VAV BOX REHEAT COIL,0.21433,0.19681,-0.017528,0.0010223
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 STORAGE 2 VAV BOX REHEAT COIL,0.19457,0.17732,-0.017244,0.0010057
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 IT ROOM VAV BOX REHEAT COIL,0.10832,0.091449,-0.016873,0.00098405
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 CAFE VAV BOX REHEAT COIL,0.37769,0.36151,-0.016178,0.00094352
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 OFFICE HALL VAV BOX REHEAT COIL,0.16473,0.14909,-0.015642,0.00091227
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 RECEPTION VAV BOX REHEAT COIL,1.8874,1.8722,-0.015271,0.00089065
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 STORAGE 2 VAV BOX REHEAT COIL,0.21687,0.20165,-0.015222,0.00088777
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 1 VAV BOX REHEAT COIL,0.17338,0.15833,-0.015051,0.0008778
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 SCHEDULING VAV BOX REHEAT COIL,0.12418,0.10921,-0.014964,0.00087274
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 SCRUB VAV BOX REHEAT COIL,0.11283,0.098611,-0.014216,0.00082909
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 6 VAV BOX REHEAT COIL,0.1374,0.12369,-0.01371,0.00079958
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 STORAGE 1 VAV BOX REHEAT COIL,0.11079,0.098386,-0.012401,0.00072326
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 LOUNGE VAV BOX REHEAT COIL,0.42898,0.41662,-0.012357,0.00072071
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 OFFICE TOILET VAV BOX REHEAT COIL,3.4106,3.3986,-0.012014,0.0007007
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 3 VAV BOX REHEAT COIL,0.10522,0.093332,-0.01189,0.00069344
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 4 VAV BOX REHEAT COIL,0.10972,0.09812,-0.011599,0.00067647
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 5 VAV BOX REHEAT COIL,0.10316,0.09242,-0.010745,0.00062667
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 EXAM HALL 2 VAV BOX REHEAT COIL,0.088906,0.079128,-0.0097782,0.00057029
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 UTILITY JANITOR VAV BOX REHEAT COIL,0.11184,0.10447,-0.0073668,0.00042965
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 STERILE STORAGE VAV BOX REHEAT COIL,0.027276,0.020043,-0.0072327,0.00042183
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 LOCKER ROOM HALL VAV BOX REHEAT COIL,0.027518,0.020502,-0.0070159,0.00040919
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 RECEPTION HALL VAV BOX REHEAT COIL,0.023854,0.018011,-0.0058432,0.00034079
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 MRI HALL VAV BOX REHEAT COIL,0.034021,0.028505,-0.0055163,0.00032173
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 WORK HALL VAV BOX REHEAT COIL,0.030267,0.026464,-0.0038027,0.00022178
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 LOCKER ROOM VAV BOX REHEAT COIL,0.021719,0.018034,-0.0036857,0.00021496
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 RECEPTION VAV BOX REHEAT COIL,0.021573,0.018424,-0.0031485,0.00018363
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 RECEPTION HALL VAV BOX REHEAT COIL,0.013223,0.011243,-0.0019798,0.00011547
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 OFFICE VAV BOX REHEAT COIL,0.012038,0.010563,-0.0014746,8.6001e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 LOCKER VAV BOX REHEAT COIL,0.018706,0.01743,-0.0012764,7.4442e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 NURSE JANITOR VAV BOX REHEAT COIL,0.0034295,0.0021535,-0.001276,7.4422e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 HUMID VAV BOX REHEAT COIL,0.00766,0.006727,-0.00093302,5.4416e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 LOBBY HALL VAV BOX REHEAT COIL,0.0046395,0.0038117,-0.0008278,4.828e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 NURSE STATION 2 VAV BOX REHEAT COIL,0.0071978,0.0063935,-0.00080436,4.6913e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 DICTATION VAV BOX REHEAT COIL,0.0039794,0.003185,-0.00079442,4.6333e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 ELECTRICAL ROOM VAV BOX REHEAT COIL,0.029734,0.02897,-0.00076383,4.4549e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 DRESSING ROOM VAV BOX REHEAT COIL,0.0052884,0.004579,-0.00070942,4.1375e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 NURSE STATION 1 VAV BOX REHEAT COIL,0.0057437,0.0050493,-0.00069446,4.0503e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 DICTATION VAV BOX REHEAT COIL,0.0014389,0.00081728,-0.0006216,3.6254e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 SCHEDULING 2 VAV BOX REHEAT COIL,0.0041324,0.0035798,-0.0005526,3.2229e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 3 MECHANICAL VAV BOX REHEAT COIL,0.028217,0.027798,-0.00041885,2.4428e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 SCHEDULING 1 VAV BOX REHEAT COIL,0.0022659,0.0019599,-0.00030608,1.7851e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 NURSE STATION VAV BOX REHEAT COIL,0.0011557,0.00086482,-0.00029092,1.6967e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 LOUNGE VAV BOX REHEAT COIL,0.0015371,0.0013483,-0.00018884,1.1014e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 MRI CONTROL ROOM VAV BOX REHEAT COIL,0.0023439,0.002171,-0.00017287,1.0082e-05
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 NOURISHMENT VAV BOX REHEAT COIL,0.00031917,0.000154,-0.00016517,9.6333e-06
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 HUMID VAV BOX REHEAT COIL,0.00029463,0.00014365,-0.00015098,8.8055e-06
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 LOUNGE VAV BOX REHEAT COIL,0.00068548,0.00060867,-7.6807e-05,4.4796e-06
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 2 X-RAY VAV BOX REHEAT COIL,0.00031824,0.00032399,5.7551e-06,-3.3566e-07
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,AHU-2 HEATING COIL,0,0,0,-0
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,AHU-1 HEATING COIL,0,0,0,-0
+OutPatientHealthCare_Denver,Heating Coil Heating Energy,FLOOR 1 MRI ROOM VAV BOX REHEAT COIL,0,0,0,-0
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,VAV_POD_1 FAN,201.6,197.97,-3.624,0.24792
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,VAV_POD_2 FAN,203.46,199.84,-3.6226,0.24782
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,VAV_POD_3 FAN,194.51,191.63,-2.8815,0.19713
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,PSZ-AC_1:5_ADDAQ_UNITARY_PACKAGE_FAN,81.997,79.638,-2.3585,0.16135
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,PSZ-AC_2:6_ADDAQ_UNITARY_PACKAGE_FAN,64.754,62.987,-1.7662,0.12082
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,PSZ-AC_3:7_ADDAQ_UNITARY_PACKAGE_FAN,85.13,84.702,-0.42819,0.029292
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,PSZ-AC_4:8_ADDAQ_UNITARY_PACKAGE_FAN,13.442,13.365,-0.077388,0.0052941
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,KITCHEN_ZN_1_FLR_1 EXHAUST FAN,15.544,15.607,0.063677,-0.0043562
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,VAV_OTHER FAN,60.848,60.882,0.033846,-0.0023154
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,PSZ-AC_5:9_ADDAQ_UNITARY_PACKAGE_FAN,42.834,42.867,0.033268,-0.0022759
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,BATHROOMS_ZN_1_FLR_1 EXHAUST FAN,1.6905,1.6954,0.0048899,-0.00033452
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,BATHROOMS_ZN_1_FLR_2 EXHAUST FAN,1.6905,1.6954,0.0048899,-0.00033452
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,MAIN_CORRIDOR_ZN_1_FLR_1 EXHAUST FAN,5.2069e-10,5.2219e-10,1.5061e-12,-1.0303e-13
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,MAIN_CORRIDOR_ZN_1_FLR_2 EXHAUST FAN,5.2069e-10,5.2219e-10,1.5061e-12,-1.0303e-13
+SchoolSecondary_InternationalFalls,Fan Electricity Energy,GYM_ZN_1_FLR_1 EXHAUST FAN,2.3137e-09,2.3148e-09,1.1082e-12,-7.581e-14

@@ -1,0 +1,49 @@
+case,configuration,returncode,completed,fatal,n_warning,n_severe,wall_s_parallel,run_env,timesteps,mean_passes,max_passes,not_converged,sizing_envs_with_passes,ts
+OfficeMedium_Denver,two_passes,0,True,False,82,0,167.1,RUNPERIOD 1,35040.0,2.0,2.0,35040.0,2,4
+OfficeMedium_Denver,two_passes,0,True,False,82,0,216.0,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2,6
+OfficeMedium_Denver,two_passes,0,True,False,83,0,320.3,RUNPERIOD 1,87600.0,2.0,2.0,87600.0,2,10
+OfficeMedium_Denver,two_passes,0,True,False,83,0,562.3,RUNPERIOD 1,175200.0,2.0,2.0,175200.0,2,20
+OfficeMedium_Denver,two_passes,0,True,False,85,0,778.7,RUNPERIOD 1,262800.0,2.0,2.0,262800.0,2,30
+OfficeMedium_Denver,converged,0,True,False,82,0,402.9,RUNPERIOD 1,35040.0,15.01,50.0,118.0,2,4
+OfficeMedium_Denver,converged,0,True,False,84,0,491.6,RUNPERIOD 1,52560.0,14.1,50.0,154.0,2,6
+OfficeMedium_Denver,converged,0,True,False,83,0,746.0,RUNPERIOD 1,87600.0,12.98,50.0,214.0,2,10
+OfficeMedium_Denver,converged,0,True,False,85,0,945.8,RUNPERIOD 1,175200.0,11.62,50.0,334.0,2,20
+OfficeMedium_Denver,converged,0,True,False,85,0,1379.8,RUNPERIOD 1,262800.0,11.32,50.0,821.0,2,30
+OfficeMedium_Denver,converged,0,True,False,85,0,1995.5,RUNPERIOD 1,525600.0,10.09,50.0,1084.0,2,60
+OfficeMedium_Denver,release,0,True,False,82,0,101.0,,,,,,0,4
+OfficeMedium_Denver,release,0,True,False,82,0,147.7,,,,,,0,6
+OfficeMedium_Denver,release,0,True,False,85,0,218.3,,,,,,0,10
+OfficeMedium_Denver,release,0,True,False,85,0,335.2,,,,,,0,20
+OfficeMedium_Denver,release,0,True,False,85,0,527.3,,,,,,0,30
+RetailStandalone_Denver,two_passes,0,True,False,48,0,91.6,RUNPERIOD 1,35040.0,1.99,2.0,34629.0,2,4
+RetailStandalone_Denver,two_passes,0,True,False,38,0,38.7,RUNPERIOD 1,52560.0,1.99,2.0,51659.0,2,6
+RetailStandalone_Denver,two_passes,0,True,False,37,0,173.8,RUNPERIOD 1,87600.0,1.98,2.0,85058.0,2,10
+RetailStandalone_Denver,two_passes,0,True,False,36,0,301.5,RUNPERIOD 1,175200.0,1.97,2.0,165591.0,2,20
+RetailStandalone_Denver,two_passes,0,True,False,40,0,458.9,RUNPERIOD 1,262800.0,1.96,2.0,245302.0,2,30
+RetailStandalone_Denver,converged,0,True,False,48,0,193.6,RUNPERIOD 1,35040.0,14.05,50.0,1575.0,2,4
+RetailStandalone_Denver,converged,0,True,False,39,0,311.6,RUNPERIOD 1,52560.0,13.35,50.0,2289.0,2,6
+RetailStandalone_Denver,converged,0,True,False,38,0,430.3,RUNPERIOD 1,87600.0,12.22,50.0,3071.0,2,10
+RetailStandalone_Denver,converged,0,True,False,37,0,661.3,RUNPERIOD 1,175200.0,10.66,50.0,3925.0,2,20
+RetailStandalone_Denver,converged,0,True,False,40,0,816.2,RUNPERIOD 1,262800.0,9.84,50.0,3869.0,2,30
+RetailStandalone_Denver,converged,0,True,False,36,0,1162.6,RUNPERIOD 1,525600.0,8.55,50.0,3666.0,2,60
+RetailStandalone_Denver,release,0,True,False,48,0,77.0,,,,,,0,4
+RetailStandalone_Denver,release,0,True,False,39,0,80.5,,,,,,0,6
+RetailStandalone_Denver,release,0,True,False,36,0,95.3,,,,,,0,10
+RetailStandalone_Denver,release,0,True,False,38,0,186.4,,,,,,0,20
+RetailStandalone_Denver,release,0,True,False,40,0,259.2,,,,,,0,30
+SchoolPrimary_Denver,two_passes,0,True,False,96,5,455.4,RUNPERIOD 1,35040.0,2.0,2.0,35040.0,2,4
+SchoolPrimary_Denver,two_passes,0,True,False,93,4,619.4,RUNPERIOD 1,52560.0,2.0,2.0,52560.0,2,6
+SchoolPrimary_Denver,two_passes,0,True,False,94,3,745.2,RUNPERIOD 1,87600.0,2.0,2.0,87600.0,2,10
+SchoolPrimary_Denver,two_passes,0,True,False,94,7,1096.3,RUNPERIOD 1,175200.0,2.0,2.0,175200.0,2,20
+SchoolPrimary_Denver,two_passes,0,True,False,93,7,1344.4,RUNPERIOD 1,262800.0,2.0,2.0,262800.0,2,30
+SchoolPrimary_Denver,converged,0,True,False,96,5,1002.7,RUNPERIOD 1,35040.0,17.75,50.0,3809.0,2,4
+SchoolPrimary_Denver,converged,0,True,False,93,6,1089.0,RUNPERIOD 1,52560.0,16.38,50.0,4706.0,2,6
+SchoolPrimary_Denver,converged,0,True,False,94,3,1576.6,RUNPERIOD 1,87600.0,14.59,50.0,5457.0,2,10
+SchoolPrimary_Denver,converged,0,True,False,94,5,2522.5,RUNPERIOD 1,175200.0,12.39,50.0,5978.0,2,20
+SchoolPrimary_Denver,converged,0,True,False,93,8,3288.3,RUNPERIOD 1,262800.0,11.51,50.0,7074.0,2,30
+SchoolPrimary_Denver,converged,0,True,False,93,3,5658.4,RUNPERIOD 1,525600.0,10.15,50.0,9554.0,2,60
+SchoolPrimary_Denver,release,0,True,False,96,3,321.8,,,,,,0,4
+SchoolPrimary_Denver,release,0,True,False,93,3,439.3,,,,,,0,6
+SchoolPrimary_Denver,release,0,True,False,94,4,579.0,,,,,,0,10
+SchoolPrimary_Denver,release,0,True,False,94,12,805.0,,,,,,0,20
+SchoolPrimary_Denver,release,0,True,False,93,7,940.7,,,,,,0,30

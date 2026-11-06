@@ -1,0 +1,9 @@
+setting,wall_s,gas_heating_GJ,unmet_heat_occ_h,mean_passes,max_passes,not_converged,gas_heating_vs_converged_pct
+release,13.6,4.93,31.5,,,,2.07
+converged,79.5,4.83,30.5,12.4,50,63,0
+tol_1e-2,23.6,4.83,30.25,2.18,50,61,0
+tol_1e-3,26.3,4.83,30.5,3.21,50,59,0
+tol_1e-3_inside_1e-4,25.7,4.83,30.5,3.19,50,63,0
+tol_1e-4_inside_1e-5,38.3,4.83,30.5,4.21,50,62,0
+passes_1,18.3,4.83,29.5,1,1,3.504e+04,0
+passes_2,22.4,4.83,30.5,2,2,3.504e+04,0

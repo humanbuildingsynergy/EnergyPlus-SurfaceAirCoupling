@@ -1,0 +1,5 @@
+run,configuration,env,timesteps,meter_J,sum_of_fans_J,max_rel_diff
+office,release,RUNPERIOD 1,32232,1.14902e+11,1.14902e+11,2.22035e-16
+office,two_passes,RUNPERIOD 1,32388,1.15269e+11,1.15269e+11,2.21702e-16
+hospital,release,RUNPERIOD 1,52560,3.30401e+12,3.30401e+12,3.88304e-16
+hospital,two_passes,RUNPERIOD 1,52560,3.3068e+12,3.3068e+12,4.28327e-16

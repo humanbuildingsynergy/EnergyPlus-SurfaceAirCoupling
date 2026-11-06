@@ -1,0 +1,8 @@
+quantity,column,cases,n_increase,n_decrease,n_zero,median_pct,W,p,bonferroni_alpha,significant_bonferroni,significant_unadjusted
+heating energy,heating_pct,31,21,10,0,0.07211,201,0.3673,0.007143,False,False
+cooling energy,cooling_pct,31,20,11,0,0.1221,147,0.04789,0.007143,False,True
+fan energy,fans_pct,36,23,13,0,0.03571,264,0.2856,0.007143,False,False
+peak electric demand,peak_pct,45,27,18,0,0.01618,411,0.234,0.007143,False,False
+cooling capacity,cool_cap_W_pct,30,14,16,0,-0.004031,146,0.07672,0.007143,False,False
+heating capacity,heat_cap_W_pct,45,19,26,0,-0.00971,327,0.03103,0.007143,False,True
+supply fan flow,fan_flow_m3s_pct,45,18,27,0,-0.01499,289,0.00913,0.007143,False,True

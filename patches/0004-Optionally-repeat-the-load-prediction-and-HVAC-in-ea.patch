@@ -1,0 +1,120 @@
+From b31bce15a55ce76116e5a63642066e5295a5e959 Mon Sep 17 00:00:00 2001
+From: Wooyoung Jung <wooyoung@arizona.edu>
+Date: Wed, 4 Nov 2026 11:11:29 -0700
+Subject: [PATCH 4/5] Optionally repeat the load prediction and HVAC in each
+ pass
+
+With SURFACE_AIR_HVAC=1, each pass also returns the zone air nodes and thermostat temperatures
+to their start-of-step values and repeats the load prediction and SimHVAC, so that the HVAC
+responds to the updated surfaces.
+---
+ src/EnergyPlus/HVACManager.cc | 47 +++++++++++++++++++++++++++++++++--
+ src/EnergyPlus/HVACManager.hh |  5 ++++
+ 2 files changed, 50 insertions(+), 2 deletions(-)
+
+diff --git a/src/EnergyPlus/HVACManager.cc b/src/EnergyPlus/HVACManager.cc
+index ef535e2..770f61a 100644
+--- a/src/EnergyPlus/HVACManager.cc
++++ b/src/EnergyPlus/HVACManager.cc
+@@ -193,6 +193,17 @@ void ManageHVAC(EnergyPlusData &state)
+             mgr->spaceMATStart.push_back(thisSpaceHB.MAT);
+             mgr->spaceHumRatStart.push_back(thisSpaceHB.airHumRat);
+         }
++        mgr->zoneNodeTempStart.clear();
++        mgr->zoneNodeHumRatStart.clear();
++        mgr->zoneNodeEnthStart.clear();
++        mgr->tstatAirStart.clear();
++        for (int zoneNum = 1; zoneNum <= state.dataGlobal->NumOfZones; ++zoneNum) {
++            int const nodeNum = state.dataHeatBal->Zone(zoneNum).SystemZoneNodeNumber;
++            mgr->zoneNodeTempStart.push_back(nodeNum > 0 ? state.dataLoopNodes->Node(nodeNum).Temp : 0.0);
++            mgr->zoneNodeHumRatStart.push_back(nodeNum > 0 ? state.dataLoopNodes->Node(nodeNum).HumRat : 0.0);
++            mgr->zoneNodeEnthStart.push_back(nodeNum > 0 ? state.dataLoopNodes->Node(nodeNum).Enthalpy : 0.0);
++            mgr->tstatAirStart.push_back(state.dataHeatBalFanSys->TempTstatAir(zoneNum));
++        }
+     }
+ 
+     for (auto &zoneTstatSetpt : s_hbfs->zoneTstatSetpts) {
+@@ -720,6 +731,8 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+     //   SURFACE_AIR_TOL      stop when no zone air temperature changes by more than this [C]
+     //                        between passes (default 1e-9)
+     //   SURFACE_AIR_OUTSIDE  1 = also solve the outside surface heat balance again (default 0)
++    //   SURFACE_AIR_HVAC     1 = also repeat the predictor and SimHVAC in each pass, so the HVAC
++    //                        responds to the updated surfaces (default 0)
+ 
+     auto &mgr = state.dataHVACMgr;
+     if (!mgr->surfAirIterInit) {
+@@ -732,11 +745,14 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+         }
+         char const *outside = std::getenv("SURFACE_AIR_OUTSIDE");
+         mgr->surfAirOutside = (outside != nullptr) && (std::atoi(outside) != 0);
++        char const *hvac = std::getenv("SURFACE_AIR_HVAC");
++        mgr->surfAirHVAC = (hvac != nullptr) && (std::atoi(hvac) != 0);
+         ShowMessage(state,
+-                    std::format("Surface-air passes: limit {} per zone timestep, tolerance {:.3g} C, outside faces {}",
++                    std::format("Surface-air passes: limit {} per zone timestep, tolerance {:.3g} C, outside faces {}, HVAC {}",
+                            mgr->surfAirMaxIter,
+                            mgr->surfAirTol,
+-                           mgr->surfAirOutside ? "re-solved" : "not re-solved"));
++                           mgr->surfAirOutside ? "re-solved" : "not re-solved",
++                           mgr->surfAirHVAC ? "re-simulated" : "held fixed"));
+     }
+     if (mgr->surfAirMaxIter == 0 || state.dataGlobal->NumOfZones == 0) {
+         return;
+@@ -767,14 +783,41 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+         for (auto &thisZoneHB : zoneHB) {
+             thisZoneHB.MAT = mgr->zoneMATStart[i];
+             thisZoneHB.airHumRat = mgr->zoneHumRatStart[i];
++            if (mgr->surfAirHVAC) {
++                thisZoneHB.ZT = mgr->zoneMATStart[i]; // the predictor takes T1 from ZT
++            }
+             ++i;
+         }
+         i = 0;
+         for (auto &thisSpaceHB : spaceHB) {
+             thisSpaceHB.MAT = mgr->spaceMATStart[i];
+             thisSpaceHB.airHumRat = mgr->spaceHumRatStart[i];
++            if (mgr->surfAirHVAC) {
++                thisSpaceHB.ZT = mgr->spaceMATStart[i];
++            }
+             ++i;
+         }
++        if (mgr->surfAirHVAC) {
++            // Return the zone air nodes and thermostats to their start-of-step state, then let the
++            // predictor compute the loads with the updated surfaces and the HVAC meet them.
++            for (int zoneNum = 1; zoneNum <= state.dataGlobal->NumOfZones; ++zoneNum) {
++                int const nodeNum = state.dataHeatBal->Zone(zoneNum).SystemZoneNodeNumber;
++                if (nodeNum > 0) {
++                    auto &node = state.dataLoopNodes->Node(nodeNum);
++                    node.Temp = mgr->zoneNodeTempStart[zoneNum - 1];
++                    node.HumRat = mgr->zoneNodeHumRatStart[zoneNum - 1];
++                    node.Enthalpy = mgr->zoneNodeEnthStart[zoneNum - 1];
++                }
++                state.dataHeatBalFanSys->TempTstatAir(zoneNum) = mgr->tstatAirStart[zoneNum - 1];
++            }
++            ZoneTempPredictorCorrector::ManageZoneAirUpdates(state,
++                                                             DataHeatBalFanSys::PredictorCorrectorCtrl::PredictStep,
++                                                             ZoneTempChange,
++                                                             state.dataHVACGlobal->ShortenTimeStepSys,
++                                                             state.dataHVACGlobal->UseZoneTimeStepHistory,
++                                                             PriorTimeStep);
++            SimHVAC(state);
++        }
+         ZoneTempPredictorCorrector::ManageZoneAirUpdates(state,
+                                                          DataHeatBalFanSys::PredictorCorrectorCtrl::CorrectStep,
+                                                          ZoneTempChange,
+diff --git a/src/EnergyPlus/HVACManager.hh b/src/EnergyPlus/HVACManager.hh
+index bcd30e5..52bb4d7 100644
+--- a/src/EnergyPlus/HVACManager.hh
++++ b/src/EnergyPlus/HVACManager.hh
+@@ -164,6 +164,11 @@ struct HVACManagerData : BaseGlobalStruct
+     bool surfAirIterInit = false;
+     int surfAirMaxIter = 0;     // maximum extra passes per zone timestep; 0 = off, as the release
+     bool surfAirOutside = false; // also re-solve the outside surface heat balance in each pass
++    bool surfAirHVAC = false;    // also repeat the predictor and SimHVAC in each pass
++    std::vector<Real64> zoneNodeTempStart;    // zone air node temperature at the start of the zone timestep
++    std::vector<Real64> zoneNodeHumRatStart;  // zone air node humidity ratio at the start of the zone timestep
++    std::vector<Real64> zoneNodeEnthStart;    // zone air node enthalpy at the start of the zone timestep
++    std::vector<Real64> tstatAirStart;        // thermostat air temperature at the start of the zone timestep
+     Real64 surfAirTol = 1.0e-9; // [C] convergence tolerance on zone air temperature between passes
+     std::vector<Real64> zoneMATStart;      // zone MAT at the start of the zone timestep
+     std::vector<Real64> zoneHumRatStart;   // zone humidity ratio at the start of the zone timestep

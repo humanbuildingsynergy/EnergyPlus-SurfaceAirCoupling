@@ -1,0 +1,16 @@
+configuration,outcome,eligible_cases,material_cases,share,supported
+two_passes,energy,45,8,0.178,False
+two_passes,peak_demand,45,1,0.0222,False
+two_passes,unmet_hours,45,1,0.0222,False
+two_passes,autosized_capacities,45,0,0,False
+two_passes,window_savings,34,13,0.382,True
+one_pass,energy,45,8,0.178,False
+one_pass,peak_demand,45,1,0.0222,False
+one_pass,unmet_hours,45,2,0.0444,False
+one_pass,autosized_capacities,45,0,0,False
+one_pass,window_savings,34,11,0.324,True
+converged,energy,45,7,0.156,False
+converged,peak_demand,45,1,0.0222,False
+converged,unmet_hours,45,1,0.0222,False
+converged,autosized_capacities,45,0,0,False
+converged,window_savings,34,12,0.353,True

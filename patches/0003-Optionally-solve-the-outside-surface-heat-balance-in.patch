@@ -1,0 +1,66 @@
+From a8f1851bc574a788291796ca21ddcdcb6e2c2bff Mon Sep 17 00:00:00 2001
+From: Wooyoung Jung <wooyoung@arizona.edu>
+Date: Wed, 4 Nov 2026 10:54:38 -0700
+Subject: [PATCH 3/5] Optionally solve the outside surface heat balance in each
+ pass
+
+With SURFACE_AIR_OUTSIDE=1, each pass also solves the outside surface heat balance again, whose
+quick-conducting surfaces also read the zone air temperature of the previous timestep.
+---
+ src/EnergyPlus/HVACManager.cc | 14 +++++++++++---
+ src/EnergyPlus/HVACManager.hh |  1 +
+ 2 files changed, 12 insertions(+), 3 deletions(-)
+
+diff --git a/src/EnergyPlus/HVACManager.cc b/src/EnergyPlus/HVACManager.cc
+index baafe14..ef535e2 100644
+--- a/src/EnergyPlus/HVACManager.cc
++++ b/src/EnergyPlus/HVACManager.cc
+@@ -719,6 +719,7 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+     //   SURFACE_AIR_PASSES   maximum extra passes per zone timestep (default 0: off, as the release)
+     //   SURFACE_AIR_TOL      stop when no zone air temperature changes by more than this [C]
+     //                        between passes (default 1e-9)
++    //   SURFACE_AIR_OUTSIDE  1 = also solve the outside surface heat balance again (default 0)
+ 
+     auto &mgr = state.dataHVACMgr;
+     if (!mgr->surfAirIterInit) {
+@@ -729,10 +730,13 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+         if (tol != nullptr) {
+             mgr->surfAirTol = std::atof(tol);
+         }
++        char const *outside = std::getenv("SURFACE_AIR_OUTSIDE");
++        mgr->surfAirOutside = (outside != nullptr) && (std::atoi(outside) != 0);
+         ShowMessage(state,
+-                    std::format("Surface-air passes: limit {} per zone timestep, tolerance {:.3g} C",
++                    std::format("Surface-air passes: limit {} per zone timestep, tolerance {:.3g} C, outside faces {}",
+                            mgr->surfAirMaxIter,
+-                           mgr->surfAirTol));
++                           mgr->surfAirTol,
++                           mgr->surfAirOutside ? "re-solved" : "not re-solved"));
+     }
+     if (mgr->surfAirMaxIter == 0 || state.dataGlobal->NumOfZones == 0) {
+         return;
+@@ -751,7 +755,11 @@ void IterateSurfaceAirCoupling(EnergyPlusData &state, Real64 &ZoneTempChange, Re
+             prevZT.push_back(thisZoneHB.ZT);
+         }
+ 
+-        // Re-solve the inside surfaces against the current zone air temperature (MAT = ZT here).
++        // Re-solve the surfaces against the current zone air temperature (MAT = ZT here). The outside
++        // face balance of quick-conducting surfaces also uses MAT, so it can be re-solved as well.
++        if (mgr->surfAirOutside) {
++            HeatBalanceSurfaceManager::CalcHeatBalanceOutsideSurf(state);
++        }
+         HeatBalanceSurfaceManager::CalcHeatBalanceInsideSurf(state);
+ 
+         // Restore the start-of-step air state, then correct the zone air temperature again.
+diff --git a/src/EnergyPlus/HVACManager.hh b/src/EnergyPlus/HVACManager.hh
+index b397b0b..bcd30e5 100644
+--- a/src/EnergyPlus/HVACManager.hh
++++ b/src/EnergyPlus/HVACManager.hh
+@@ -163,6 +163,7 @@ struct HVACManagerData : BaseGlobalStruct
+     // Surface-air passes (see IterateSurfaceAirCoupling)
+     bool surfAirIterInit = false;
+     int surfAirMaxIter = 0;     // maximum extra passes per zone timestep; 0 = off, as the release
++    bool surfAirOutside = false; // also re-solve the outside surface heat balance in each pass
+     Real64 surfAirTol = 1.0e-9; // [C] convergence tolerance on zone air temperature between passes
+     std::vector<Real64> zoneMATStart;      // zone MAT at the start of the zone timestep
+     std::vector<Real64> zoneHumRatStart;   // zone humidity ratio at the start of the zone timestep
