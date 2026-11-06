@@ -25,10 +25,11 @@ accuracy_runtime_timed_runs.csv, accuracy_runtime_errors.csv and accuracy_runtim
 
 Usage (repository root):
   python3 study/accuracy_runtime.py reference [--cases ...]
-  python3 study/accuracy_runtime.py timed [--cases ...] [--configurations ...] [--timesteps ...]
+  python3 study/accuracy_runtime.py timed [--cases ...] [--configurations ...] [--timesteps ...] [--redo]
   python3 study/accuracy_runtime.py analyze
 "timed" skips runs already in accuracy_runtime_timed_runs.csv and saves that file after every run,
-so it can be stopped and restarted.
+so it can be stopped and restarted. With --redo it runs the chosen runs again and replaces their
+rows, for example to time a subset on another machine.
 """
 
 import argparse
@@ -139,9 +140,13 @@ def cmd_timed(a):
     path = RC.RESULTS / "accuracy_runtime_timed_runs.csv"
     done = pd.read_csv(path) if path.exists() else pd.DataFrame(columns=["case", "configuration", "ts", "repeat"])
     rows = done.to_dict("records")
-    have = {(r["case"], r["configuration"], int(r["ts"]), int(r["repeat"])) for r in rows}
-    todo = [(c, conf, ts, k) for k in range(1, a.repeats + 1) for c in a.cases for conf in a.configurations
-            for ts in a.timesteps if (c, conf, ts, k) not in have]
+    key = lambda r: (r["case"], r["configuration"], int(r["ts"]), int(r["repeat"]))
+    chosen = [(c, conf, ts, k) for k in range(1, a.repeats + 1) for c in a.cases for conf in a.configurations
+              for ts in a.timesteps]
+    if a.redo:  # drop the chosen runs' rows (at the first save), so an interrupted redo resumes without --redo
+        rows = [r for r in rows if key(r) not in set(chosen)]
+    have = {key(r) for r in rows}
+    todo = [t for t in chosen if t not in have]
     print(f"{len(todo)} timed runs to do, started {time.strftime('%H:%M %Z')}", flush=True)
     for i, (c, conf, ts, k) in enumerate(todo, 1):
         d = runs / c / f"{conf}_ts{ts:02d}" if k == 1 else runs / "repeat" / f"{c}_{conf}_ts{ts:02d}"
@@ -219,6 +224,8 @@ def main():
     ap.add_argument("--configurations", nargs="*", default=TIMED, choices=TIMED, help="timed phase only")
     ap.add_argument("--timesteps", nargs="*", type=int, default=STEPS, choices=STEPS, help="timed phase only")
     ap.add_argument("--repeats", type=int, default=REPEATS, help="timed phase only (paper: 3)")
+    ap.add_argument("--redo", action="store_true",
+                    help="timed phase only: run the chosen runs again even if they are already in the file")
     ap.add_argument("--runs", type=RC.folder, default=RC.DEFAULT_RUNS, help="folder for raw runs")
     a = ap.parse_args()
     {"reference": cmd_reference, "timed": cmd_timed, "analyze": cmd_analyze}[a.phase](a)
