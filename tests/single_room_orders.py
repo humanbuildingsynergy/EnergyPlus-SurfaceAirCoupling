@@ -20,6 +20,9 @@ import pandas as pd
 
 REPO = Path(__file__).resolve().parents[1]
 ROOM = REPO / "results" / "single_room"
+# When most errors of a fit are below this, they are round-off and their slope is not an order, so
+# the order is left blank (the converged configuration on the winter design day of two cases).
+ROUND_OFF = 1e-9  # C
 
 
 def day(env):
@@ -54,7 +57,7 @@ def main():
     o30 = []
     for kk, g in rms30.groupby(k):
         g = g[g.e > 0]
-        if len(g) >= 3:
+        if len(g) >= 3 and g.e.median() > ROUND_OFF:
             o30.append(dict(zip(k, kk)) | {"order": float(np.polyfit(np.log(60.0 / g.ts), np.log(g.e), 1)[0])})
     o30 = (pd.DataFrame(o30).groupby(["case", "day", "algo", "what", "configuration"]).order.median()
            .unstack("configuration")[labels].round(2))
