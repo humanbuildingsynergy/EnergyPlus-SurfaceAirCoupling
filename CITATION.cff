@@ -11,6 +11,14 @@ authors:
 repository-code: "https://github.com/humanbuildingsynergy/EnergyPlus-SurfaceAirCoupling"
 license: BSD-3-Clause
 version: 1.0.0
+doi: 10.5281/zenodo.24041718
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24041718
+    description: "Version 1.0.0, the version used in the paper"
+  - type: doi
+    value: 10.5281/zenodo.24041716
+    description: "All versions (resolves to the latest)"
 abstract: >-
   Research patches to EnergyPlus version 26.2.0 that add optional passes solving the surface heat
   balances, the zone air balance and the HVAC to agreement within each zone timestep, with the

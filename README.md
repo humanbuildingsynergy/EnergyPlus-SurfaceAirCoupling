@@ -1,5 +1,7 @@
 # Surface–air coupling passes for EnergyPlus 26.2.0
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24041716.svg)](https://doi.org/10.5281/zenodo.24041716)
+
 Research patches and scripts for EnergyPlus version 26.2.0. This repository is not affiliated with
 or endorsed by the U.S. Department of Energy or the EnergyPlus development team. EnergyPlus™ is a
 trademark of the U.S. Department of Energy.
@@ -176,5 +178,6 @@ https://www.energycodes.gov/prototype-building-models, which are not redistribut
 
 ## Citation
 
-Please cite the paper and the archived version of this repository (Zenodo DOI to be added). See
-`CITATION.cff`.
+Please cite the paper and the archived version of this repository. The results of the paper come
+from version 1.0.0, archived at https://doi.org/10.5281/zenodo.24041718. The DOI
+https://doi.org/10.5281/zenodo.24041716 always points to the latest version. See `CITATION.cff`.
