@@ -1,0 +1,27 @@
+release,outside_surfaces_line,inside_surfaces_line,air_balance_line,surfaces_before_air,inside_reference_air_line,inside_reference_air_form,inside_reads_previous_MAT
+8.2.0,206,208,213,True,5126,MAT read directly,True
+8.3.0,209,211,216,True,4987,MAT read directly,True
+8.4.0,226,228,233,True,5058,MAT read directly,True
+8.5.0,284,286,291,True,5164,MAT read directly,True
+8.6.0,284,286,291,True,5253,MAT read directly,True
+8.7.0,274,276,281,True,5264,MAT read directly,True
+8.8.0,277,279,284,True,5362,MAT read directly,True
+8.9.0,276,278,283,True,5368,MAT read directly,True
+9.0.0,282,284,289,True,6023,MAT read directly,True
+9.0.1,282,284,289,True,6023,MAT read directly,True
+9.1.0,282,284,289,True,6066,MAT read directly,True
+9.2.0,241,243,248,True,5935,MAT read directly,True
+9.3.0,242,244,249,True,5942,MAT read directly,True
+9.4.0,276,278,283,True,6422,MAT read directly,True
+9.5.0,209,211,216,True,6620,MAT read directly,True
+9.6.0,197,199,204,True,6977,getInsideAirTemperature,True
+22.1.0,196,198,203,True,6924,getInsideAirTemperature,True
+22.2.0,196,198,203,True,7504,getInsideAirTemperature,True
+23.1.0,198,200,205,True,7677,getInsideAirTemperature,True
+23.2.0,164,166,171,True,7597,getInsideAirTemperature,True
+24.1.0,164,166,171,True,7639,getInsideAirTemperature,True
+24.2.0,164,166,171,True,7591,getInsideAirTemperature,True
+25.1.0,164,166,171,True,7596,getInsideAirTemperature,True
+25.2.0,168,172,179,True,7841,getInsideAirTemperature,True
+26.1.0,168,172,179,True,7871,getInsideAirTemperature,True
+26.2.0,184,188,195,True,8186,getInsideAirTemperature,True

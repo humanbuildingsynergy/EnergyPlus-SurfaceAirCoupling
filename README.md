@@ -101,6 +101,7 @@ python3 tests/lag_heat_capacity.py
 python3 tests/order_estimates.py
 python3 tests/pass_limits.py
 tests/pass_runtime.sh                              # on an otherwise idle machine
+python3 tests/trace_releases.py                    # needs internet: source of every release since 8.2.0
 
 # 3. Prototype study (results/prototypes). Download the 16 prototype zips and three weather
 #    files first: prepare_inputs.py lists the URLs and checks every file's SHA-256.
@@ -157,6 +158,7 @@ different PDF files.
 | Accuracy against runtime; Figure 7 | `results/prototypes/accuracy_runtime_*.csv` | `study/accuracy_runtime.py` |
 | Accuracy with fixed equipment sizes | `results/prototypes/accuracy_fixed_sizes*.csv` | `study/accuracy_fixed_sizes.py` |
 | Appendix A: source locations | `docs/source_trace.md` | – |
+| Background and Appendix A: the same order in every release from 8.2.0 | `results/source_trace/releases.csv` | `tests/trace_releases.py` |
 
 Inputs: the tests build their input files from `1ZoneUncontrolled.idf` and the small office in the
 `ExampleFiles` of the release, so no input file is stored here. The prototype study uses the ASHRAE

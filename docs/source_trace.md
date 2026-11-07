@@ -73,14 +73,15 @@ steps 1 to 3 within the timestep until the two agree.
 
 ## Earlier releases
 
-`HeatBalanceSurfaceManager.cc` at tags v8.2.0 (2014, the first C++ release), v9.0.0, v22.1.0 and
-v24.1.0 has the same order within a zone timestep (`CalcHeatBalanceOutsideSurf`,
-`CalcHeatBalanceInsideSurf`, `ManageAirHeatBalance`), and the inside surfaces take the zone mean
-air temperature `MAT` of the previous timestep: `RefAirTemp(SurfNum) = MAT(ZoneNum)` at v8.2.0
-(line 5126) and v9.0.0 (line 6023), and `getInsideAirTemperature` at v22.1.0 (line 6924) and
-v24.1.0 (line 7639). Earlier releases were written in Fortran. For them, Strand et al. (2001)
-describe the loop taken over from BLAST (surfaces iterated, air solved after the loop) as kept
-"substantially the same" in EnergyPlus.
+Every release from 8.2.0 (2014, the first C++ release) to 26.1.0 has the same order within a zone
+timestep (`CalcHeatBalanceOutsideSurf`, `CalcHeatBalanceInsideSurf`, `ManageAirHeatBalance`), and
+its inside surfaces take the zone mean air temperature `MAT` of the previous timestep. Up to 9.5.0
+the code reads `MAT` directly (`RefAirTemp(SurfNum) = MAT(ZoneNum)`, line 5126 in 8.2.0). From
+9.6.0 it calls `getInsideAirTemperature`, which returns `MAT` for zone-mean surfaces (line 7871 in
+26.1.0). `tests/trace_releases.py` checks all 26 releases from 8.2.0 to 26.2.0 and writes the line
+numbers to `results/source_trace/releases.csv`. Earlier releases were written in Fortran. For them,
+Strand et al. (2001) describe the loop taken over from BLAST (surfaces iterated, air solved after
+the loop) as kept "substantially the same" in EnergyPlus.
 
 ## How to check
 
