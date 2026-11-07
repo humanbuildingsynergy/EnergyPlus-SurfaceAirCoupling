@@ -62,8 +62,8 @@ def fig_simple_models():
             fontsize=7, color=INK, va="bottom")
     ax.text(0.38, 0.22, "0.1 m concrete", ha="center", fontsize=7, color=INK)
     ax.text(0.71, 0.62, "Air held\nat 20 °C", ha="center", fontsize=7, color=INK)
-    arrow(ax, (0.50, 0.44), (0.90, 0.44), lw=0.7, head=6)
-    ax.text(0.71, 0.36, "$h$ = 8\nW/(m²K)", ha="center", va="top", fontsize=7, color=INK)
+    arrow(ax, (0.50, 0.53), (0.90, 0.53), lw=0.7, head=6)
+    ax.text(0.71, 0.50, "Convection\n8 W/(m²K)", ha="center", va="top", fontsize=7, color=INK)
 
     # (b) single room on design days
     room(axes[1], True, [
@@ -75,7 +75,7 @@ def fig_simple_models():
     # (c) room with an exact solution
     room(axes[2], False, [
         (0.50, 0.82, "All surfaces massless", {"ha": "center"}),
-        (0.50, 0.54, "$h$ fixed: 3 in,\n20 out; no long-\nwave, solar or\ninternal gains",
+        (0.50, 0.54, "Fixed convection,\n3 W/(m²K) inside,\n20 W/(m²K) outside;\nno long-wave, solar\nor internal gains",
          {"ha": "center", "va": "center"}),
         (0.50, 0.17, "Floor adiabatic", {"ha": "center"}),
     ])
