@@ -77,8 +77,8 @@ def variants():
     )
     t = table(
         "tab:variants",
-        "Order of accuracy and error of the zone air temperature in the single room floating on its "
-        "summer design day, with the default third-order scheme, for variants that change one term "
+        "Order of accuracy and error of the zone air temperature in the single room without solar "
+        "gain floating on its summer design day, with the default third-order scheme, for variants that change one term "
         "of the model.",
         "@{}>{\\raggedright\\arraybackslash\\leftskip=1em}p{0.37\\textwidth}"
         "*{4}{>{\\centering\\arraybackslash}X}@{}",
