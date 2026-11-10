@@ -9,7 +9,7 @@ trademark of the U.S. Department of Energy.
 The repository accompanies the paper
 
 > Jung, W. "The one-step surface–air lag in the EnergyPlus zone heat balance: order of accuracy,
-> correction and consequences." Preprint: arXiv (identifier to be added).
+> correction and consequences." Preprint: arXiv:2611.10886, https://arxiv.org/abs/2611.10886.
 
 In each zone timestep, EnergyPlus solves the surface heat balances with the zone air temperature of
 the previous timestep, then the zone air balance with the new surface temperatures, and does not go
